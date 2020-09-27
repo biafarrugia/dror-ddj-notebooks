@@ -1,0 +1,3 @@
+pymongo
+feedparser
+python-telegram-bot
