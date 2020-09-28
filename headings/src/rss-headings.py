@@ -9,7 +9,7 @@ import datetime
 # open database connection
 username="root"
 password="mongo"
-client = MongoClient('mongodb://%s:%s@127.0.0.1' % (username, password))
+client = MongoClient('mongodb://%s:%s@mongo' % (username, password))
 db = client.headings
 db.headings.create_index([('title', pymongo.TEXT)], name='search_index', default_language='english')
 

@@ -12,7 +12,7 @@ def get_db():
     # open database connection
     username="root"
     password="mongo"
-    client = MongoClient('mongodb://%s:%s@127.0.0.1' % (username, password))
+    client = MongoClient('mongodb://%s:%s@mongo' % (username, password))
     db = client.headings
     return db
 
@@ -191,6 +191,7 @@ def sources_handler(update, context):
                               
 
 def main():
+    logger.info("creating updater")
     updater = Updater(os.environ['TEL_BOT_TOKEN'], use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('start', start))
@@ -208,6 +209,7 @@ def main():
     dp.add_handler(CommandHandler('short', short_handler))
     dp.add_handler(CommandHandler('sources', sources_handler))
 
+    logger.info("starting to poll")
     updater.start_polling()
 
     updater.idle()
