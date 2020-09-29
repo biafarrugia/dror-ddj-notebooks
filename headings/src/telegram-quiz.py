@@ -16,13 +16,21 @@ def get_db():
     db = client.headings
     return db
 
-def build_heading_quiz(answers, keyword=None):
+def build_heading_quiz(answers, keyword=None, sources_subset=None):
 
     db = get_db()
     
     # loop for 10 attempts
     midnight = datetime.datetime.combine(datetime.date.today(), datetime.datetime.min.time())
     sources_all = [x["name"] for x in db.sources.find()]
+    domain = os.environ["TEL_BOT_DOMAIN"]
+
+    # subset sources?
+    if sources_subset:
+        sources_all = [ sources_all[i-1] for i in sources_subset]
+    logger.info("sources_all: " + str(sources_all))
+
+    logger.info("build_heading_quiz: %s" % domain)
     for _ in range(10):
     
         # pick random sources
@@ -32,7 +40,22 @@ def build_heading_quiz(answers, keyword=None):
         # get heading for one of the sources
         heading_source_name = None
         for s in sources:
-            query_fields =  {"$and": [{"_timestamp": {"$gte": midnight}}, {"_source.name": s}]}
+            query_fields =  {
+                "$and": [
+                    {
+                        "_timestamp": 
+                        {
+                            "$gte": midnight
+                        }
+                    }, 
+                    {
+                        "_source.name": s
+                    },
+                    {
+                        "_source.domain": domain
+                    }
+                ]
+            }
             if keyword:
                 query_fields["$text"] = {"$search": keyword}
             
@@ -56,7 +79,7 @@ def build_heading_quiz(answers, keyword=None):
     
     # if here, not found, try without keyword
     if keyword:
-        return build_heading_quiz(answers)
+        return build_heading_quiz(answers, sources_subset=sources_subset)
     else:
         return None
 
@@ -89,6 +112,26 @@ def build_default_quiz():
 def get_sources():
     return [source for source in get_db().sources.find()]
 
+def get_user_info(username):
+
+    info = get_db().users.find_one({"username": username})
+    if not info:
+        info = {
+            "username": username,
+        }
+    if not "quizs" in info:
+        info["quizs"] = 0
+    if not "sources" in info:
+        info["sources"] = [1,2,3,4]
+
+    return info
+
+def set_user_info(username, info):
+
+    key = {"username": username}
+    get_db().users.replace_one(key, info, True)
+
+
 
 import logging
 import os
@@ -118,17 +161,22 @@ def start_post_timer(context):
         
 def quiz(update, context, qs=2):
 
+    info = get_user_info(update.effective_chat.username)
+    info["quizs"] = info["quizs"] + 1
+    set_user_info(update.effective_chat.username, info)
+
     # extract keyword text
     text = update.effective_message.text
     toks = text.split(' ', 1)
     keyword = toks[1] if len(toks) > 1 else None
     
-    q = build_heading_quiz(qs, keyword=keyword)
+    q = build_heading_quiz(qs, keyword=keyword, sources_subset=info["sources"])
     if not q:
         q = build_default_quiz()
         
     questions = q["sources"]
-    message = update.effective_message.reply_poll("Where was this heading published?\n\n" + q["title"],
+    prefix = "Where was this heading published?\n\n"  if info["quizs"] <= 3 else ""
+    message = update.effective_message.reply_poll(prefix + q["title"],
                                                   questions, type=Poll.QUIZ, correct_option_id=q["index"])
     # Save some info about the poll the bot_data for later use in receive_quiz_answer
     payload = {message.poll.id: {"chat_id": update.effective_chat.id,
@@ -185,8 +233,12 @@ def short_handler(update, context):
 
 def sources_handler(update, context):
     msg = ""
+    index = 0
+    info = get_user_info(update.effective_chat.username)
     for source in get_sources():
-        msg += (source["name"] + " - " + source["rss"] + "\n")
+        index = index + 1;
+        marker = "*" if index in info["sources"] else ""
+        msg += (str(index) + marker + " " + source["name"] + " - " + source["rss"] + "\n")
     update.message.reply_text(msg)
                               
 
