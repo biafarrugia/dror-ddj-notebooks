@@ -1,0 +1,13 @@
+todo file
+
+code:
+[ ] /sources - select sources, show selected sources
+[ ] /stats
+[ ] mention contact email address
+[ ] add a domain field to the source entries. value for existing is something like: "uknews"
+[ ] raw export of headline data - straight mongodb dunp?
+
+meta:
+[ ] consult on how to structure so that research can use the accumulated data
+[ ] partner on the project
+
