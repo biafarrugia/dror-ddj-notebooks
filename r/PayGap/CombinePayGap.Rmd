@@ -1,0 +1,28 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r get data}
+data19 <- read.csv( "https://gender-pay-gap.service.gov.uk/viewing/download-data/2019", stringsAsFactors = FALSE)
+data18 <- read.csv( "https://gender-pay-gap.service.gov.uk/viewing/download-data/2018", stringsAsFactors = FALSE)
+data17 <- read.csv( "https://gender-pay-gap.service.gov.uk/viewing/download-data/2017", stringsAsFactors = FALSE)
+```
+
+```{r add year coloumn}
+data19$yearEnding <- 2019
+data18$yearEnding <- 2018
+data17$yearEnding <- 2017
+```
+
+Read the data from the RDS file
+
+```{r combine and save}
+data = rbind(data17, data18, data19)
+saveRDS(data, file="PayGap_Combined.rds")
+```
+
+
+
+
+

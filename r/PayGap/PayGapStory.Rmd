@@ -1,0 +1,38 @@
+---
+title: "R Notebook"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+```{r}
+library(stringr)
+library(gender)
+library(dplyr)
+```
+
+# attempt to get a story out of the combined pay gap data for years ending 2017,2018,2019
+
+```{r read data}
+data = readRDS("PayGap_Combined.rds")
+```
+
+Separate the name and position and gender of the responsible person
+```{r}
+data$respFirstName <- word(data$ResponsiblePerson, 1, sep=" ")
+data$respLastName <- word(data$ResponsiblePerson, 2, sep=" ")
+data$respPos <- str_replace(word(data$ResponsiblePerson, 2, sep="\\("), "\\)", "")
+
+genders <- distinct(gender(data$respFirstName))
+data$name <- data$respFirstName
+dataWithGender <- data %>% inner_join(genders)
+```
+
+What is the ratio of male/female within the responsible person's population
+```{r}
+gcounts = dataWithGender %>% count(gender)
+gsum <- gcounts %>% summarise(sum = sum(n)) %>% merge(gcounts)
+gsum <- gcounts %>% summarise(sum = min(n)) %>% merge(gcounts)
+gsum$prop = gsum$n / gsum$sum
+gsum
+```
+Turns out that for years ending on 1017-2019, there were 60% more males responsible for pay gap policy enforcements and reporting than women.
