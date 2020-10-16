@@ -31,7 +31,7 @@ library(tidytext)
 library(ggplot2)
 ```
 
-Get timeline tweets ainxw 1/8/2020. tidy to screen_name,date,text
+Get timeline tweets since 1/8/2020. tidy to screen_name,date,text
 
 ```{r get timeline(s)}
 leaders <- c("@BorisJohnson", "@NicolaSturgeon", "@fmwales", "@DUPleader")
