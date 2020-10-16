@@ -5,10 +5,10 @@ output:
   html_notebook: default
 ---
 
-# Nicola Sturgeon's stronger sentiment behind Scotts Covid19 compliance?
+# Nicola Sturgeon's stronger sentiment behind Scotts' Covid19 compliance?
 
 Twitter account sentiment analysis for the four leaders of the devolved
-nations show higher levels of sentiment expression by Stergeon.
+nations shows higher levels of sentiment expression by Stergeon.
 
 r example ref:
 https://www.tidytextmining.com/sentiment.html
