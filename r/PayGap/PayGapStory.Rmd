@@ -30,7 +30,6 @@ dataWithGender <- data %>% inner_join(genders)
 What is the ratio of male/female within the responsible person's population
 ```{r}
 gcounts = dataWithGender %>% count(gender)
-gsum <- gcounts %>% summarise(sum = sum(n)) %>% merge(gcounts)
 gsum <- gcounts %>% summarise(sum = min(n)) %>% merge(gcounts)
 gsum$prop = gsum$n / gsum$sum
 gsum
