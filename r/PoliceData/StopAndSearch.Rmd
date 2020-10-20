@@ -1,0 +1,56 @@
+---
+title: "R Notebook"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+```{r}
+#install.packages("rio")
+library("rio")
+library("dplyr")
+library("jsonlite")
+```
+
+```{r}
+df <- rio::import("2020-08-derbyshire-stop-and-search.csv")
+```
+
+
+```{r}
+names(df)
+head(df)
+```
+
+```{r}
+df$url <- paste("http://api.postcodes.io/postcodes?lat=", df$Latitude, "&lon=", df$Longitude, sep="")
+head(df$url)
+```
+
+```{r}
+df <- df %>% filter(!is.na(Latitude))
+```
+
+```{r}
+postcodes = c()
+parishes = c()
+for ( url in df$url ) {
+  json = read_json(url)
+  postcode = json$result[[1]]$postcode
+  parish = json$result[[1]]$parish
+  if ( (json$status == 200) && !is.null(postcode) ) {
+    postcodes <- append(postcodes, postcode)
+    parishes = append(parishes, parish)
+  } else {
+    postcodes <- append(postcodes, "unknown")
+    parishes <- append(parishes, "unknown")
+  }
+}
+df$postcode = postcodes
+df$parish = parishes
+```
+
+```{r}
+df %>% count(parish)
+```
+
