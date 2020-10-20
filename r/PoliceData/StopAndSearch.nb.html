@@ -1758,6 +1758,9 @@ summary {
 
 
 <!-- rnb-text-begin -->
+<div id="getting-postcode-and-parish-from-police-data-latlon-locations-using-postcodes-api" class="section level1">
+<h1>Getting Postcode and Parish from Police Data lat/lon (locations), using postcodes API</h1>
+<p>Getting packages ready …</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaW5zdGFsbC5wYWNrYWdlcyhcInJpb1wiKVxuYGBgIn0= -->
@@ -1773,6 +1776,7 @@ library(&quot;jsonlite&quot;)</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
+<p>Loading the CSV file</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZGYgPC0gcmlvOjppbXBvcnQoXCIyMDIwLTA4LWRlcmJ5c2hpcmUtc3RvcC1hbmQtc2VhcmNoLmNzdlwiKVxuYGBgIn0= -->
@@ -1780,6 +1784,7 @@ library(&quot;jsonlite&quot;)</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
+<p>Poking around, getting column names and a glimple at the datas</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubmFtZXMoZGYpXG5gYGAifQ== -->
@@ -1807,6 +1812,7 @@ library(&quot;jsonlite&quot;)</code></pre>
 <!-- rnb-frame-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
+<p>Adding a column of the postcodes api with the lat/lon argument taken from the dataframe (for each row)</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZGYkdXJsIDwtIHBhc3RlKFwiaHR0cDovL2FwaS5wb3N0Y29kZXMuaW8vcG9zdGNvZGVzP2xhdD1cIiwgZGYkTGF0aXR1ZGUsIFwiJmxvbj1cIiwgZGYkTG9uZ2l0dWRlLCBzZXA9XCJcIilcbmhlYWQoZGYkdXJsKVxuYGBgIn0= -->
@@ -1823,6 +1829,7 @@ head(df$url)</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
+<p>Some rows have no location … let’s filter them out</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZGYgPC0gZGYgJT4lIGZpbHRlcighaXMubmEoTGF0aXR1ZGUpKVxuYGBgIn0= -->
@@ -1830,6 +1837,7 @@ head(df$url)</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
+<p>Here is the meat. Loop on the urls, execute the API, extract postcode and parish and integrate back into dataframe as new columns</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucG9zdGNvZGVzID0gYygpXG5wYXJpc2hlcyA9IGMoKVxuZm9yICggdXJsIGluIGRmJHVybCApIHtcbiAganNvbiA9IHJlYWRfanNvbih1cmwpXG4gIHBvc3Rjb2RlID0ganNvbiRyZXN1bHRbWzFdXSRwb3N0Y29kZVxuICBwYXJpc2ggPSBqc29uJHJlc3VsdFtbMV1dJHBhcmlzaFxuICBpZiAoIChqc29uJHN0YXR1cyA9PSAyMDApICYmICFpcy5udWxsKHBvc3Rjb2RlKSApIHtcbiAgICBwb3N0Y29kZXMgPC0gYXBwZW5kKHBvc3Rjb2RlcywgcG9zdGNvZGUpXG4gICAgcGFyaXNoZXMgPSBhcHBlbmQocGFyaXNoZXMsIHBhcmlzaClcbiAgfSBlbHNlIHtcbiAgICBwb3N0Y29kZXMgPC0gYXBwZW5kKHBvc3Rjb2RlcywgXCJ1bmtub3duXCIpXG4gICAgcGFyaXNoZXMgPC0gYXBwZW5kKHBhcmlzaGVzLCBcInVua25vd25cIilcbiAgfVxufVxuYGBgIn0= -->
@@ -1854,6 +1862,7 @@ Restarting R session...</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
+<p>Some basic analysis, say how many rows (incedents) were there for each parish</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-frame-begin eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjpbImRhdGEuZnJhbWUiXSwibnJvdyI6MjEsIm5jb2wiOjJ9LCJyZGYiOiJINHNJQUFBQUFBQUFBM1ZTMzIvVE1CQjJzNFYxS1Q5VkRRMGtwUEJPSzZHOThOd1dtQVFJUklhMjExdmkxRlpkdXpvN1pIM2JYejQ0WjNZWmtSckp5dDNudSsvdU85L1B4ZFZaZHBVeHhnN1lJVXZZUVVvbVMzOWRmSnA4WU93d0lXZEFGOGYrZjBOQll6STgrSnpPU2JoNE5PTnF3ekY0d3hseXNNN280TCtaQzI0ZHgxcHlWYjNMRzcwQmxGYndLZ2NLakJSelpWck5nL2R5d2ZGNnV5LzIxUUpoV3hybmN0QlZQaGNObGlLL2xHcVhQbHcwZFZjdCtLY2ZrYmRneFQ3Q0YrY2N0TUdPN3F1eHBZbEVyOC9sVXVRL09LejJwV1pmcEZLd0JyUWlJSSsvZ1ZPbVhPVVhKQ2cyOVAwM1I4dEJSYlVGdElwdkkwZFJBcFpLMW5Xc2Uxb0l3SW9tMHJYMG1jcTUvd1NPQ3lGUitUdC9mSk93RGxkdkM5TTRrWGNEdEJURjkzVisxT2lWL3RmaTZGTHFKY2ZXb0l0S2hnUVJoVkprUCttZTJ5K0ozd2Rha0xBR002OG1ZS09BcDhHUHNROVBFczRvL0FlOUhVczFyTGtOKzVYRWNkMzNIOWRROTNLTzBiVFRtT2NiVFc1Wjk1MzB5VXNGTnBKSE1LdkF3YlJHeWlmdnJwZHlaRFpPR2sxSnlUaEllNWc4d0I3d3JORytrMnBTQ3BydjVMMHZFS1N6ME4wZ2pETGF5WDNKNUUrZ1NxTnFycGR5OStTcGdtc2U5K2NwS2U0RVR6Y290WXRLQ0xWVFo5eHV6N0xTcUloMDJ0amRYNTV1bnVqd0F3QUEifQ== -->
@@ -1866,8 +1875,9 @@ Restarting R session...</code></pre>
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
+</div>
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OgogIHBkZl9kb2N1bWVudDogZGVmYXVsdAogIGh0bWxfbm90ZWJvb2s6IGRlZmF1bHQKLS0tCgpgYGB7cn0KI2luc3RhbGwucGFja2FnZXMoInJpbyIpCmxpYnJhcnkoInJpbyIpCmxpYnJhcnkoImRwbHlyIikKbGlicmFyeSgianNvbmxpdGUiKQpgYGAKCmBgYHtyfQpkZiA8LSByaW86OmltcG9ydCgiMjAyMC0wOC1kZXJieXNoaXJlLXN0b3AtYW5kLXNlYXJjaC5jc3YiKQpgYGAKCgpgYGB7cn0KbmFtZXMoZGYpCmhlYWQoZGYpCmBgYAoKYGBge3J9CmRmJHVybCA8LSBwYXN0ZSgiaHR0cDovL2FwaS5wb3N0Y29kZXMuaW8vcG9zdGNvZGVzP2xhdD0iLCBkZiRMYXRpdHVkZSwgIiZsb249IiwgZGYkTG9uZ2l0dWRlLCBzZXA9IiIpCmhlYWQoZGYkdXJsKQpgYGAKCmBgYHtyfQpkZiA8LSBkZiAlPiUgZmlsdGVyKCFpcy5uYShMYXRpdHVkZSkpCmBgYAoKYGBge3J9CnBvc3Rjb2RlcyA9IGMoKQpwYXJpc2hlcyA9IGMoKQpmb3IgKCB1cmwgaW4gZGYkdXJsICkgewogIGpzb24gPSByZWFkX2pzb24odXJsKQogIHBvc3Rjb2RlID0ganNvbiRyZXN1bHRbWzFdXSRwb3N0Y29kZQogIHBhcmlzaCA9IGpzb24kcmVzdWx0W1sxXV0kcGFyaXNoCiAgaWYgKCAoanNvbiRzdGF0dXMgPT0gMjAwKSAmJiAhaXMubnVsbChwb3N0Y29kZSkgKSB7CiAgICBwb3N0Y29kZXMgPC0gYXBwZW5kKHBvc3Rjb2RlcywgcG9zdGNvZGUpCiAgICBwYXJpc2hlcyA9IGFwcGVuZChwYXJpc2hlcywgcGFyaXNoKQogIH0gZWxzZSB7CiAgICBwb3N0Y29kZXMgPC0gYXBwZW5kKHBvc3Rjb2RlcywgInVua25vd24iKQogICAgcGFyaXNoZXMgPC0gYXBwZW5kKHBhcmlzaGVzLCAidW5rbm93biIpCiAgfQp9CmRmJHBvc3Rjb2RlID0gcG9zdGNvZGVzCmRmJHBhcmlzaCA9IHBhcmlzaGVzCmBgYAoKYGBge3J9CmRmICU+JSBjb3VudChwYXJpc2gpCmBgYAoK</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OgogIHBkZl9kb2N1bWVudDogZGVmYXVsdAogIGh0bWxfbm90ZWJvb2s6IGRlZmF1bHQKLS0tCgojIEdldHRpbmcgUG9zdGNvZGUgYW5kIFBhcmlzaCBmcm9tIFBvbGljZSBEYXRhIGxhdC9sb24gKGxvY2F0aW9ucyksIHVzaW5nIHBvc3Rjb2RlcyBBUEkKCkdldHRpbmcgcGFja2FnZXMgcmVhZHkgLi4uCgpgYGB7cn0KI2luc3RhbGwucGFja2FnZXMoInJpbyIpCmxpYnJhcnkoInJpbyIpCmxpYnJhcnkoImRwbHlyIikKbGlicmFyeSgianNvbmxpdGUiKQpgYGAKCkxvYWRpbmcgdGhlIENTViBmaWxlCgpgYGB7cn0KZGYgPC0gcmlvOjppbXBvcnQoIjIwMjAtMDgtZGVyYnlzaGlyZS1zdG9wLWFuZC1zZWFyY2guY3N2IikKYGBgCgpQb2tpbmcgYXJvdW5kLCBnZXR0aW5nIGNvbHVtbiBuYW1lcyBhbmQgYSBnbGltcGxlIGF0IHRoZSBkYXRhcwoKCmBgYHtyfQpuYW1lcyhkZikKaGVhZChkZikKYGBgCgpBZGRpbmcgYSBjb2x1bW4gb2YgdGhlIHBvc3Rjb2RlcyBhcGkgd2l0aCB0aGUgbGF0L2xvbiBhcmd1bWVudCB0YWtlbiBmcm9tIHRoZSBkYXRhZnJhbWUgKGZvciBlYWNoIHJvdykKCmBgYHtyfQpkZiR1cmwgPC0gcGFzdGUoImh0dHA6Ly9hcGkucG9zdGNvZGVzLmlvL3Bvc3Rjb2Rlcz9sYXQ9IiwgZGYkTGF0aXR1ZGUsICImbG9uPSIsIGRmJExvbmdpdHVkZSwgc2VwPSIiKQpoZWFkKGRmJHVybCkKYGBgCgpTb21lIHJvd3MgaGF2ZSBubyBsb2NhdGlvbiAuLi4gbGV0J3MgZmlsdGVyIHRoZW0gb3V0CgpgYGB7cn0KZGYgPC0gZGYgJT4lIGZpbHRlcighaXMubmEoTGF0aXR1ZGUpKQpgYGAKCkhlcmUgaXMgdGhlIG1lYXQuIExvb3Agb24gdGhlIHVybHMsIGV4ZWN1dGUgdGhlIEFQSSwgZXh0cmFjdCBwb3N0Y29kZSBhbmQgcGFyaXNoIGFuZCBpbnRlZ3JhdGUgYmFjayBpbnRvIGRhdGFmcmFtZSBhcyBuZXcgY29sdW1ucwoKYGBge3J9CnBvc3Rjb2RlcyA9IGMoKQpwYXJpc2hlcyA9IGMoKQpmb3IgKCB1cmwgaW4gZGYkdXJsICkgewogIGpzb24gPSByZWFkX2pzb24odXJsKQogIHBvc3Rjb2RlID0ganNvbiRyZXN1bHRbWzFdXSRwb3N0Y29kZQogIHBhcmlzaCA9IGpzb24kcmVzdWx0W1sxXV0kcGFyaXNoCiAgaWYgKCAoanNvbiRzdGF0dXMgPT0gMjAwKSAmJiAhaXMubnVsbChwb3N0Y29kZSkgKSB7CiAgICBwb3N0Y29kZXMgPC0gYXBwZW5kKHBvc3Rjb2RlcywgcG9zdGNvZGUpCiAgICBwYXJpc2hlcyA9IGFwcGVuZChwYXJpc2hlcywgcGFyaXNoKQogIH0gZWxzZSB7CiAgICBwb3N0Y29kZXMgPC0gYXBwZW5kKHBvc3Rjb2RlcywgInVua25vd24iKQogICAgcGFyaXNoZXMgPC0gYXBwZW5kKHBhcmlzaGVzLCAidW5rbm93biIpCiAgfQp9CmRmJHBvc3Rjb2RlID0gcG9zdGNvZGVzCmRmJHBhcmlzaCA9IHBhcmlzaGVzCmBgYAoKU29tZSBiYXNpYyBhbmFseXNpcywgc2F5IGhvdyBtYW55IHJvd3MgKGluY2VkZW50cykgd2VyZSB0aGVyZSBmb3IgZWFjaCBwYXJpc2gKCmBgYHtyfQpkZiAlPiUgY291bnQocGFyaXNoKQpgYGAKCg==</div>
 
 
 

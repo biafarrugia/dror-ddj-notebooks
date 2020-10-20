@@ -5,6 +5,10 @@ output:
   html_notebook: default
 ---
 
+# Getting Postcode and Parish from Police Data lat/lon (locations), using postcodes API
+
+Getting packages ready ...
+
 ```{r}
 #install.packages("rio")
 library("rio")
@@ -12,9 +16,13 @@ library("dplyr")
 library("jsonlite")
 ```
 
+Loading the CSV file
+
 ```{r}
 df <- rio::import("2020-08-derbyshire-stop-and-search.csv")
 ```
+
+Poking around, getting column names and a glimple at the datas
 
 
 ```{r}
@@ -22,14 +30,20 @@ names(df)
 head(df)
 ```
 
+Adding a column of the postcodes api with the lat/lon argument taken from the dataframe (for each row)
+
 ```{r}
 df$url <- paste("http://api.postcodes.io/postcodes?lat=", df$Latitude, "&lon=", df$Longitude, sep="")
 head(df$url)
 ```
 
+Some rows have no location ... let's filter them out
+
 ```{r}
 df <- df %>% filter(!is.na(Latitude))
 ```
+
+Here is the meat. Loop on the urls, execute the API, extract postcode and parish and integrate back into dataframe as new columns
 
 ```{r}
 postcodes = c()
@@ -49,6 +63,8 @@ for ( url in df$url ) {
 df$postcode = postcodes
 df$parish = parishes
 ```
+
+Some basic analysis, say how many rows (incedents) were there for each parish
 
 ```{r}
 df %>% count(parish)
