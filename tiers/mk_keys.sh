@@ -10,5 +10,6 @@ cut -d ',' -f 1 <key4 | parallel ./postcode-lookup.sh >>key5
 
 join -t ','  <(sort -t ',' -k 1 key4) <(sort -t ',' -k 1 key5) >key6
 
-join -t ',' -12 -22 <(sort -t ',' -k 2 key6) <(sort -t ',' -k 2 key3) | cut -d ',' -f 1,2,3,5 | sort | sed 's/"//g' | uniq >tiers_`date +"%y%m%d"`.csv
+echo "areacode,postcode,tier,area" >tiers_`date +"%y%m%d"`.csv
+join -t ',' -12 -22 <(sort -t ',' -k 2 key6) <(sort -t ',' -k 2 key3) | cut -d ',' -f 1,2,3,5 | sort | sed 's/"//g' | uniq >>tiers_`date +"%y%m%d"`.csv
 
