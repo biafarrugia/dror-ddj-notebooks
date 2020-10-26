@@ -25,9 +25,9 @@ E06000008,BB24AD,Very High,Blackburn with Darwen
 E06000009,FY13RT,Very High,Blackpool
 E06000009,FY41NY,Very High,Blackpool
 E06000009,FY44RJ,Very High,Blackpool
-E06000010,HU47JE,Medium,"Kingston upon Hull
-E06000010,HU69PB,Medium,"Kingston upon Hull
-E06000010,HU73DT,Medium,"Kingston upon Hull
+E06000010,HU47JE,Medium,Kingston upon Hull
+E06000010,HU69PB,Medium,Kingston upon Hull
+E06000010,HU73DT,Medium,Kingston upon Hull
 E06000011,DN148HG,Medium,East Riding of Yorkshire
 E06000011,HU165JQ,Medium,East Riding of Yorkshire
 E06000011,YO164TB,Medium,East Riding of Yorkshire
@@ -52,9 +52,9 @@ E06000017,LE159JT,Medium,Rutland
 E06000018,NG31HA,High,Nottingham
 E06000018,NG52AL,High,Nottingham
 E06000018,NG76QA,High,Nottingham
-E06000019,HR11UE,Medium,"Herefordshire
-E06000019,HR74NR,Medium,"Herefordshire
-E06000019,HR96EY,Medium,"Herefordshire
+E06000019,HR11UE,Medium,Herefordshire
+E06000019,HR74NR,Medium,Herefordshire
+E06000019,HR96EY,Medium,Herefordshire
 E06000020,SY44JN,Medium,Telford and Wrekin
 E06000020,TF13BB,Medium,Telford and Wrekin
 E06000020,TF26LU,Medium,Telford and Wrekin
@@ -64,9 +64,9 @@ E06000021,ST27QT,High,Stoke-on-Trent
 E06000022,BA11US,Medium,Bath and North East Somerset
 E06000022,BS311TP,Medium,Bath and North East Somerset
 E06000022,BS397TA,Medium,Bath and North East Somerset
-E06000023,BS119TT,Medium,"Bristol
-E06000023,BS16QA,Medium,"Bristol
-E06000023,BS67YF,Medium,"Bristol
+E06000023,BS119TT,Medium,Bristol
+E06000023,BS16QA,Medium,Bristol
+E06000023,BS67YF,Medium,Bristol
 E06000024,BS215BB,Medium,North Somerset
 E06000024,BS249AY,Medium,North Somerset
 E06000024,BS405BT,Medium,North Somerset
@@ -157,9 +157,9 @@ E06000056,MK452UA,Medium,Central Bedfordshire
 E06000057,NE236QT,High,Northumberland
 E06000057,NE661EH,High,Northumberland
 E06000057,TD152TX,High,Northumberland
-E06000058,BH122LB,Medium,"Bournemouth
-E06000058,BH152LZ,Medium,"Bournemouth
-E06000058,BH64DQ,Medium,"Bournemouth
+E06000058,BH122LB,Medium,Bournemouth
+E06000058,BH152LZ,Medium,Bournemouth
+E06000058,BH64DQ,Medium,Bournemouth
 E06000059,BH192NR,Medium,Dorset
 E06000059,DT27BY,Medium,Dorset
 E06000059,DT83PJ,Medium,Dorset
