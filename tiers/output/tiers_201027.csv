@@ -1,937 +1,938 @@
 areacode,postcode,tier,area
-E06000001,TS251BJ,High,Hartlepool
-E06000001,TS253AN,High,Hartlepool
-E06000001,TS273PH,High,Hartlepool
-E06000002,TS15AS,High,Middlesbrough
-E06000002,TS30HS,High,Middlesbrough
-E06000002,TS37JU,High,Middlesbrough
-E06000003,TS121AW,High,Redcar and Cleveland
-E06000003,TS146HA,High,Redcar and Cleveland
-E06000003,TS66UD,High,Redcar and Cleveland
-E06000004,TS179JB,High,Stockton-on-Tees
-E06000004,TS190QN,High,Stockton-on-Tees
-E06000004,TS201PD,High,Stockton-on-Tees
-E06000005,DL11JX,High,Darlington
-E06000005,DL19QD,High,Darlington
-E06000005,DL36HB,High,Darlington
-E06000006,WA75DR,Very High,Halton
-E06000006,WA75NG,Very High,Halton
-E06000006,WA84YJ,Very High,Halton
-E06000007,WA45AB,Very High,Warrington
-E06000007,WA52RE,Very High,Warrington
-E06000007,WA53DE,Very High,Warrington
-E06000008,BB21QH,Very High,Blackburn with Darwen
-E06000008,BB22NQ,Very High,Blackburn with Darwen
-E06000008,BB30ST,Very High,Blackburn with Darwen
-E06000009,FY20JH,Very High,Blackpool
-E06000009,FY42PU,Very High,Blackpool
-E06000009,FY53NB,Very High,Blackpool
-E06000010,HU33PQ,Medium,Kingston upon Hull
-E06000010,HU36PR,Medium,Kingston upon Hull
-E06000010,HU91DN,Medium,Kingston upon Hull
-E06000011,HU129AY,Medium,East Riding of Yorkshire
-E06000011,HU130AN,Medium,East Riding of Yorkshire
-E06000011,HU151RB,Medium,East Riding of Yorkshire
-E06000012,DN359NA,Medium,North East Lincolnshire
-E06000012,DN359NL,Medium,North East Lincolnshire
-E06000012,DN364EZ,Medium,North East Lincolnshire
-E06000013,DN158UR,Medium,North Lincolnshire
-E06000013,DN174PJ,Medium,North Lincolnshire
-E06000013,DN403PD,Medium,North Lincolnshire
-E06000014,YO104DA,High,York
-E06000014,YO10FA,High,York
-E06000014,YO231FJ,High,York
-E06000015,DE11PW,Medium,Derby
-E06000015,DE216FZ,Medium,Derby
-E06000015,DE217AH,Medium,Derby
-E06000016,LE21LE,High,Leicester
-E06000016,LE27AG,High,Leicester
-E06000016,LE49JU,High,Leicester
-E06000017,LE157BZ,Medium,Rutland
-E06000017,LE159AJ,Medium,Rutland
-E06000017,PE93TH,Medium,Rutland
-E06000018,NG11LS,High,Nottingham
-E06000018,NG60FQ,High,Nottingham
-E06000018,NG72DA,High,Nottingham
-E06000019,HR69PX,Medium,Herefordshire
-E06000019,HR74UJ,Medium,Herefordshire
-E06000019,NP253SS,Medium,Herefordshire
-E06000020,TF26RS,Medium,Telford and Wrekin
-E06000020,TF42JG,Medium,Telford and Wrekin
-E06000020,WV991GS,Medium,Telford and Wrekin
-E06000021,ST45BD,High,Stoke-on-Trent
-E06000021,ST46PZ,High,Stoke-on-Trent
-E06000021,ST47RB,High,Stoke-on-Trent
-E06000022,BA21SH,Medium,Bath and North East Somerset
-E06000022,BS311UJ,Medium,Bath and North East Somerset
-E06000022,BS312ER,Medium,Bath and North East Somerset
-E06000023,BS110HD,Medium,Bristol
-E06000023,BS42XJ,Medium,Bristol
-E06000023,BS91DA,Medium,Bristol
-E06000024,BS200HF,Medium,North Somerset
-E06000024,BS227TS,Medium,North Somerset
-E06000024,BS296JN,Medium,North Somerset
-E06000025,BS165NT,Medium,South Gloucestershire
-E06000025,BS305JX,Medium,South Gloucestershire
-E06000025,BS345PF,Medium,South Gloucestershire
-E06000026,PL19FR,Medium,Plymouth
-E06000026,PL22DF,Medium,Plymouth
-E06000026,PL72BQ,Medium,Plymouth
-E06000027,TQ26TF,Medium,Torbay
-E06000027,TQ32RQ,Medium,Torbay
-E06000027,TQ46BG,Medium,Torbay
-E06000030,SN252FD,Medium,Swindon
-E06000030,SN40AS,Medium,Swindon
-E06000030,SN67QU,Medium,Swindon
-E06000031,PE11UW,Medium,Peterborough
-E06000031,PE27DP,Medium,Peterborough
-E06000031,PE29NF,Medium,Peterborough
-E06000032,LU15HG,Medium,Luton
-E06000032,LU31UU,Medium,Luton
-E06000032,LU32HW,Medium,Luton
-E06000033,SS39PY,Medium,Southend-on-Sea
-E06000033,SS93AR,Medium,Southend-on-Sea
-E06000033,SS93HL,Medium,Southend-on-Sea
-E06000034,SS177PE,Medium,Thurrock
-E06000034,SS178AD,Medium,Thurrock
-E06000034,SS178DJ,Medium,Thurrock
-E06000035,ME38PH,Medium,Medway
-E06000035,ME88AN,Medium,Medway
-E06000035,ME89ST,Medium,Medway
-E06000036,GU479EJ,Medium,Bracknell Forest
-E06000036,RG122SA,Medium,Bracknell Forest
-E06000036,RG127SQ,Medium,Bracknell Forest
-E06000037,RG179QZ,Medium,West Berkshire
-E06000037,RG184LA,Medium,West Berkshire
-E06000037,RG73DQ,Medium,West Berkshire
-E06000038,RG12QL,Medium,Reading
-E06000038,RG316JF,Medium,Reading
-E06000038,RG47NQ,Medium,Reading
-E06000039,SL10RA,High,Slough
-E06000039,SL15DX,High,Slough
-E06000039,SL23AR,High,Slough
-E06000040,SL39BS,Medium,Windsor and Maidenhead
-E06000040,SL57JH,Medium,Windsor and Maidenhead
-E06000040,SL59RW,Medium,Windsor and Maidenhead
-E06000041,RG108DP,Medium,Wokingham
-E06000041,RG402EQ,Medium,Wokingham
-E06000041,RG412YQ,Medium,Wokingham
-E06000042,MK109UX,Medium,Milton Keynes
-E06000042,MK145HE,Medium,Milton Keynes
-E06000042,MK150AE,Medium,Milton Keynes
-E06000043,BN14DU,Medium,Brighton and Hove
-E06000043,BN17BQ,Medium,Brighton and Hove
-E06000043,BN25ND,Medium,Brighton and Hove
-E06000044,PO11DZ,Medium,Portsmouth
-E06000044,PO27QS,Medium,Portsmouth
-E06000044,PO64AT,Medium,Portsmouth
-E06000045,SO167PH,Medium,Southampton
-E06000045,SO186BP,Medium,Southampton
-E06000045,SO186BX,Medium,Southampton
-E06000046,PO326HF,Medium,Isle of Wight
-E06000046,PO333LE,Medium,Isle of Wight
-E06000046,PO368JB,Medium,Isle of Wight
-E06000047,DH33QS,High,County Durham
-E06000047,DL166DF,High,County Durham
-E06000047,DL57LG,High,County Durham
-E06000049,SK103RU,High,Cheshire East
-E06000049,SK122EU,High,Cheshire East
-E06000049,SK97QP,High,Cheshire East
-E06000050,CH641RL,High,Cheshire West and Chester
-E06000050,CH664YU,High,Cheshire West and Chester
-E06000050,CW81RZ,High,Cheshire West and Chester
-E06000051,SY45JQ,Medium,Shropshire
-E06000051,SY56NX,Medium,Shropshire
-E06000051,SY82PH,Medium,Shropshire
-E06000052,PL131FL,Medium,Cornwall
-E06000052,PL159NJ,Medium,Cornwall
-E06000052,TR130DH,Medium,Cornwall
-E06000054,BA148HE,Medium,Wiltshire
-E06000054,SN118TR,Medium,Wiltshire
-E06000054,SN48EE,Medium,Wiltshire
-E06000055,MK403RH,Medium,Bedford
-E06000055,MK418JX,Medium,Bedford
-E06000055,MK420NB,Medium,Bedford
-E06000056,LU55SH,Medium,Central Bedfordshire
-E06000056,MK430JR,Medium,Central Bedfordshire
-E06000056,SG192EB,Medium,Central Bedfordshire
-E06000057,NE192DG,High,Northumberland
-E06000057,NE616DF,High,Northumberland
-E06000057,NE659AJ,High,Northumberland
-E06000058,BH124LY,Medium,Bournemouth
-E06000058,BH178QU,Medium,Bournemouth
-E06000058,BH80NH,Medium,Bournemouth
-E06000059,BH228HW,Medium,Dorset
-E06000059,DT101QA,Medium,Dorset
-E06000059,DT94FP,Medium,Dorset
-E06000060,HP137XB,Medium,Buckinghamshire
-E06000060,SL99AF,Medium,Buckinghamshire
-E06000060,SL99QR,Medium,Buckinghamshire
-E07000008,CB10QY,Medium,Cambridge
-E07000008,CB41HG,Medium,Cambridge
-E07000008,CB41JJ,Medium,Cambridge
-E07000009,CB250FJ,Medium,East Cambridgeshire
-E07000009,CB74BL,Medium,East Cambridgeshire
-E07000009,CB74GG,Medium,East Cambridgeshire
-E07000010,PE150WQ,Medium,Fenland
-E07000010,PE159SQ,Medium,Fenland
-E07000010,PE71JJ,Medium,Fenland
-E07000011,PE273FP,Medium,Huntingdonshire
-E07000011,PE282PA,Medium,Huntingdonshire
-E07000011,PE297BY,Medium,Huntingdonshire
-E07000012,CB248SZ,Medium,South Cambridgeshire
-E07000012,CB259LP,Medium,South Cambridgeshire
-E07000012,SG80EY,Medium,South Cambridgeshire
-E07000026,CA125UG,Medium,Allerdale
-E07000026,CA141YP,Medium,Allerdale
-E07000026,CA142UA,Medium,Allerdale
-E07000027,LA139HR,High,Barrow-in-Furness
-E07000027,LA144NP,High,Barrow-in-Furness
-E07000027,LA145NP,High,Barrow-in-Furness
-E07000028,CA13NW,Medium,Carlisle
-E07000028,CA19ST,Medium,Carlisle
-E07000028,CA38RW,Medium,Carlisle
-E07000029,CA270ES,Medium,Copeland
-E07000029,CA287TN,Medium,Copeland
-E07000029,CA288PY,Medium,Copeland
-E07000030,CA101PB,Medium,Eden
-E07000030,CA102HJ,Medium,Eden
-E07000030,CA103LU,Medium,Eden
-E07000031,LA116JX,Medium,South Lakeland
-E07000031,LA229NU,Medium,South Lakeland
-E07000031,LA97RW,Medium,South Lakeland
-E07000032,DE557PF,Medium,Amber Valley
-E07000032,DE561UE,Medium,Amber Valley
-E07000032,DE59QA,Medium,Amber Valley
-E07000033,DE555QL,Medium,Bolsover
-E07000033,NG197PF,Medium,Bolsover
-E07000033,S804XN,Medium,Bolsover
-E07000034,S417BF,High,Chesterfield
-E07000034,S418NA,High,Chesterfield
-E07000034,S419DD,High,Chesterfield
-E07000035,DE42HR,Medium,Derbyshire Dales
-E07000035,DE451GW,Medium,Derbyshire Dales
-E07000035,DE49TE,Medium,Derbyshire Dales
-E07000036,DE215DT,High,Erewash
-E07000036,DE723HR,High,Erewash
-E07000036,DE78NB,High,Erewash
-E07000037,SK138SG,High,High Peak
-E07000037,SK176RW,Medium,High Peak
-E07000037,SK236AF,Medium,High Peak
-E07000038,S183BE,High,North East Derbyshire
-E07000038,S211DR,High,North East Derbyshire
-E07000038,S211GY,High,North East Derbyshire
-E07000039,DE110DS,Medium,South Derbyshire
-E07000039,DE118JL,Medium,South Derbyshire
-E07000039,DE656EL,Medium,South Derbyshire
-E07000040,EX108RT,Medium,East Devon
-E07000040,EX135SG,Medium,East Devon
-E07000040,EX57FN,Medium,East Devon
-E07000041,EX25AA,Medium,Exeter
-E07000041,EX42LN,Medium,Exeter
-E07000042,EX164PA,Medium,Mid Devon
-E07000042,EX171BD,Medium,Mid Devon
-E07000042,EX176ND,Medium,Mid Devon
-E07000043,EX187EB,Medium,North Devon
-E07000043,EX311JS,Medium,North Devon
-E07000043,EX331DJ,Medium,North Devon
-E07000044,PL210NQ,Medium,South Hams
-E07000044,TQ109AT,Medium,South Hams
-E07000044,TQ96QN,Medium,South Hams
-E07000045,TQ123AR,Medium,Teignbridge
-E07000045,TQ123GJ,Medium,Teignbridge
-E07000045,TQ130BG,Medium,Teignbridge
-E07000046,EX187QA,Medium,Torridge
-E07000046,EX392LW,Medium,Torridge
-E07000046,EX395EF,Medium,Torridge
-E07000047,EX201HN,Medium,West Devon
-E07000047,PL207FF,Medium,West Devon
-E07000047,PL207SA,Medium,West Devon
-E07000061,BN227JS,Medium,Eastbourne
-E07000061,BN227RH,Medium,Eastbourne
-E07000061,BN238EA,Medium,Eastbourne
-E07000062,TN342NA,Medium,Hastings
-E07000062,TN343TU,Medium,Hastings
-E07000062,TN355HP,Medium,Hastings
-E07000063,BN107QE,Medium,Lewes
-E07000063,BN71JA,Medium,Lewes
-E07000063,BN85JR,Medium,Lewes
-E07000064,TN316TX,Medium,Rother
-E07000064,TN325JS,Medium,Rother
-E07000064,TN395HY,Medium,Rother
-E07000065,BN266AQ,Medium,Wealden
-E07000065,TN210XA,Medium,Wealden
-E07000065,TN63QD,Medium,Wealden
-E07000066,SS118UZ,High,Basildon
-E07000066,SS120PF,High,Basildon
-E07000066,SS133QS,High,Basildon
-E07000067,CM72NB,High,Braintree
-E07000067,CM72QU,High,Braintree
-E07000067,CM778JT,High,Braintree
-E07000068,CM133AT,High,Brentwood
-E07000068,CM145BQ,High,Brentwood
-E07000068,CM158LF,High,Brentwood
-E07000069,SS71FR,High,Castle Point
-E07000069,SS72UQ,High,Castle Point
-E07000069,SS88JH,High,Castle Point
-E07000070,CM11EJ,High,Chelmsford
-E07000070,CM13NB,High,Chelmsford
-E07000070,CM13QG,High,Chelmsford
-E07000071,CO29FX,High,Colchester
-E07000071,CO45GS,High,Colchester
-E07000071,CO49WN,High,Colchester
-E07000072,CM167JN,High,Epping Forest
-E07000072,CM219RG,High,Epping Forest
-E07000072,IG95QB,High,Epping Forest
-E07000073,CM170HS,High,Harlow
-E07000073,CM203QB,High,Harlow
-E07000073,CM209BX,High,Harlow
-E07000074,CM08DH,High,Maldon
-E07000074,CM36RU,High,Maldon
-E07000074,CM96EL,High,Maldon
-E07000075,SS42EQ,High,Rochford
-E07000075,SS43EY,High,Rochford
-E07000075,SS69RX,High,Rochford
-E07000076,CO153DR,High,Tendring
-E07000076,CO169AB,High,Tendring
-E07000076,CO78ST,High,Tendring
-E07000077,CM226QL,High,Uttlesford
-E07000077,CM61AU,High,Uttlesford
-E07000077,CM61WJ,High,Uttlesford
-E07000078,GL518LH,Medium,Cheltenham
-E07000078,GL530JQ,Medium,Cheltenham
-E07000078,GL537HU,Medium,Cheltenham
-E07000079,GL543DH,Medium,Cotswold
-E07000079,GL72DP,Medium,Cotswold
-E07000079,GL74EU,Medium,Cotswold
-E07000080,GL155NJ,Medium,Forest of Dean
-E07000080,GL168QH,Medium,Forest of Dean
-E07000080,GL170QW,Medium,Forest of Dean
-E07000081,GL13EB,Medium,Gloucester
-E07000081,GL14QQ,Medium,Gloucester
-E07000081,GL22FE,Medium,Gloucester
-E07000082,GL114BZ,Medium,Stroud
-E07000082,GL115TP,Medium,Stroud
-E07000082,GL23ST,Medium,Stroud
-E07000083,GL194EP,Medium,Tewkesbury
-E07000083,GL514AE,Medium,Tewkesbury
-E07000083,GL545AH,Medium,Tewkesbury
-E07000084,RG218FY,Medium,Basingstoke and Deane
-E07000084,RG226RJ,Medium,Basingstoke and Deane
-E07000084,RG249YP,Medium,Basingstoke and Deane
-E07000085,GU105NE,Medium,East Hampshire
-E07000085,GU307QZ,Medium,East Hampshire
-E07000085,GU342BZ,Medium,East Hampshire
-E07000086,SO183RB,Medium,Eastleigh
-E07000086,SO300PX,Medium,Eastleigh
-E07000086,SO304DH,Medium,Eastleigh
-E07000087,PO155HQ,Medium,Fareham
-E07000087,PO155LZ,Medium,Fareham
-E07000087,SO311BP,Medium,Fareham
-E07000088,PO122HQ,Medium,Gosport
-E07000088,PO122PD,Medium,Gosport
-E07000088,PO124QF,Medium,Gosport
-E07000089,GU170AG,Medium,Hart
-E07000089,RG270JZ,Medium,Hart
-E07000089,RG291AS,Medium,Hart
-E07000090,PO107RS,Medium,Havant
-E07000090,PO78AH,Medium,Havant
-E07000090,PO93SG,Medium,Havant
-E07000091,SO402UW,Medium,New Forest
-E07000091,SO410WJ,Medium,New Forest
-E07000091,SP62AH,Medium,New Forest
-E07000092,GU124AZ,Medium,Rushmoor
-E07000092,GU124PY,Medium,Rushmoor
-E07000092,GU148JA,Medium,Rushmoor
-E07000093,SP101NY,Medium,Test Valley
-E07000093,SP102HT,Medium,Test Valley
-E07000093,SP116PU,Medium,Test Valley
-E07000094,PO74RT,Medium,Winchester
-E07000094,SO211DW,Medium,Winchester
-E07000094,SO238BL,Medium,Winchester
-E07000095,EN107QD,Medium,Broxbourne
-E07000095,EN76TD,Medium,Broxbourne
-E07000095,EN88UP,Medium,Broxbourne
-E07000096,HP11NS,Medium,Dacorum
-E07000096,HP30AJ,Medium,Dacorum
-E07000096,WD49HF,Medium,Dacorum
-E07000098,WD239GW,Medium,Hertsmere
-E07000098,WD62PB,Medium,Hertsmere
-E07000098,WD64SN,Medium,Hertsmere
-E07000099,AL48LY,Medium,North Hertfordshire
-E07000099,SG40PA,Medium,North Hertfordshire
-E07000099,SG49DT,Medium,North Hertfordshire
-E07000102,WD194NE,Medium,Three Rivers
-E07000102,WD34EJ,Medium,Three Rivers
-E07000102,WD48LE,Medium,Three Rivers
-E07000103,WD174RP,Medium,Watford
-E07000103,WD245EG,Medium,Watford
-E07000103,WD250NA,Medium,Watford
-E07000105,TN231LU,Medium,Ashford
-E07000105,TN236JD,Medium,Ashford
-E07000105,TN240AJ,Medium,Ashford
-E07000106,CT28PS,Medium,Canterbury
-E07000106,CT47BF,Medium,Canterbury
-E07000106,CT52DP,Medium,Canterbury
-E07000107,DA11BW,Medium,Dartford
-E07000107,DA27RR,Medium,Dartford
-E07000107,DA49JD,Medium,Dartford
-E07000108,CT148EF,Medium,Dover
-E07000108,CT162RG,Medium,Dover
-E07000108,CT46NP,Medium,Dover
-E07000109,DA125HW,Medium,Gravesham
-E07000109,DA125JY,Medium,Gravesham
-E07000109,ME23UH,Medium,Gravesham
-E07000110,ME142JP,Medium,Maidstone
-E07000110,TN120DZ,Medium,Maidstone
-E07000110,TN279AD,Medium,Maidstone
-E07000111,DA38JE,Medium,Sevenoaks
-E07000111,TN133DZ,Medium,Sevenoaks
-E07000111,TN139SN,Medium,Sevenoaks
-E07000112,CT194NT,Medium,Folkestone and Hythe
-E07000112,CT203JA,Medium,Folkestone and Hythe
-E07000112,CT216JS,Medium,Folkestone and Hythe
-E07000113,ME103ET,Medium,Swale
-E07000113,ME122GE,Medium,Swale
-E07000113,ME123FR,Medium,Swale
-E07000114,CT101AS,Medium,Thanet
-E07000114,CT119QT,Medium,Thanet
-E07000114,CT70EQ,Medium,Thanet
-E07000115,ME65PB,Medium,Tonbridge and Malling
-E07000115,ME65RE,Medium,Tonbridge and Malling
-E07000115,TN103QD,Medium,Tonbridge and Malling
-E07000116,TN128EF,Medium,Tunbridge Wells
-E07000116,TN173DH,Medium,Tunbridge Wells
-E07000116,TN23FW,Medium,Tunbridge Wells
-E07000117,BB101HU,Very High,Burnley
-E07000117,BB115NU,Very High,Burnley
-E07000117,BB127NG,Very High,Burnley
-E07000118,PR268NL,Very High,Chorley
-E07000118,PR68AE,Very High,Chorley
-E07000118,PR69FF,Very High,Chorley
-E07000119,FY83AR,Very High,Fylde
-E07000119,FY89SQ,Very High,Fylde
-E07000119,PR43FA,Very High,Fylde
-E07000120,BB14NX,Very High,Hyndburn
-E07000120,BB51EE,Very High,Hyndburn
-E07000120,BB55WW,Very High,Hyndburn
-E07000121,LA14SQ,Very High,Lancaster
-E07000121,LA29RG,Very High,Lancaster
-E07000121,LA46BT,Very High,Lancaster
-E07000122,BB129EJ,Very High,Pendle
-E07000122,BB98JL,Very High,Pendle
-E07000122,BB99PH,Very High,Pendle
+E06000001,TS251DB,High,Hartlepool
+E06000001,TS252AG,High,Hartlepool
+E06000001,TS273HS,High,Hartlepool
+E06000002,TS12EA,High,Middlesbrough
+E06000002,TS15NL,High,Middlesbrough
+E06000002,TS78LN,High,Middlesbrough
+E06000003,TS105LH,High,Redcar and Cleveland
+E06000003,TS109BP,High,Redcar and Cleveland
+E06000003,TS66NS,High,Redcar and Cleveland
+E06000004,TS179HW,High,Stockton-on-Tees
+E06000004,TS181LA,High,Stockton-on-Tees
+E06000004,TS198DL,High,Stockton-on-Tees
+E06000005,DL13HS,High,Darlington
+E06000005,DL14WE,High,Darlington
+E06000005,DL37LH,High,Darlington
+E06000006,WA75ND,Very High,Halton
+E06000006,WA80TT,Very High,Halton
+E06000006,WA84TN,Very High,Halton
+E06000007,WA11HU,Very High,Warrington
+E06000007,WA27LT,Very High,Warrington
+E06000007,WA29TE,Very High,Warrington
+E06000008,BB13HF,Very High,Blackburn with Darwen
+E06000008,BB26HD,Very High,Blackburn with Darwen
+E06000008,BB32EB,Very High,Blackburn with Darwen
+E06000009,FY20DJ,Very High,Blackpool
+E06000009,FY41HF,Very High,Blackpool
+E06000009,FY41QS,Very High,Blackpool
+E06000010,HU36AX,Medium,Kingston upon Hull
+E06000010,HU46AH,Medium,Kingston upon Hull
+E06000010,HU89TJ,Medium,Kingston upon Hull
+E06000011,HU120AP,Medium,East Riding of Yorkshire
+E06000011,HU178QD,Medium,East Riding of Yorkshire
+E06000011,HU179DZ,Medium,East Riding of Yorkshire
+E06000012,DN333EH,Medium,North East Lincolnshire
+E06000012,DN364TH,Medium,North East Lincolnshire
+E06000012,DN379HS,Medium,North East Lincolnshire
+E06000013,DN172EB,Medium,North Lincolnshire
+E06000013,DN200AB,Medium,North Lincolnshire
+E06000013,DN209EB,Medium,North Lincolnshire
+E06000014,YO241NE,High,York
+E06000014,YO304WX,High,York
+E06000014,YO307EB,High,York
+E06000015,DE217AG,Medium,Derby
+E06000015,DE233SF,Medium,Derby
+E06000015,DE249EA,Medium,Derby
+E06000016,LE21FP,High,Leicester
+E06000016,LE26GS,High,Leicester
+E06000016,LE35PA,High,Leicester
+E06000017,LE157HR,Medium,Rutland
+E06000017,LE158JP,Medium,Rutland
+E06000017,PE93TR,Medium,Rutland
+E06000018,NG55TT,High,Nottingham
+E06000018,NG72DT,High,Nottingham
+E06000018,NG89LN,High,Nottingham
+E06000019,HR74NA,Medium,Herefordshire
+E06000019,HR82AT,Medium,Herefordshire
+E06000019,WR135PF,Medium,Herefordshire
+E06000020,TF107XL,Medium,Telford and Wrekin
+E06000020,TF26JY,Medium,Telford and Wrekin
+E06000020,WV991WY,Medium,Telford and Wrekin
+E06000021,ST13PF,High,Stoke-on-Trent
+E06000021,ST62NY,High,Stoke-on-Trent
+E06000021,ST67HZ,High,Stoke-on-Trent
+E06000022,BS140QR,Medium,Bath and North East Somerset
+E06000022,BS312FX,Medium,Bath and North East Somerset
+E06000022,BS408RN,Medium,Bath and North East Somerset
+E06000023,BS110NJ,Medium,Bristol
+E06000023,BS11JH,Medium,Bristol
+E06000023,BS42EH,Medium,Bristol
+E06000024,BS226ES,Medium,North Somerset
+E06000024,BS233TW,Medium,North Somerset
+E06000024,BS483AA,Medium,North Somerset
+E06000025,BS159UY,Medium,South Gloucestershire
+E06000025,BS347BZ,Medium,South Gloucestershire
+E06000025,BS378XY,Medium,South Gloucestershire
+E06000026,PL65LZ,Medium,Plymouth
+E06000026,PL74BW,Medium,Plymouth
+E06000026,PL74QD,Medium,Plymouth
+E06000027,TQ13GZ,Medium,Torbay
+E06000027,TQ31BX,Medium,Torbay
+E06000027,TQ59GT,Medium,Torbay
+E06000030,SN12QW,Medium,Swindon
+E06000030,SN29BL,Medium,Swindon
+E06000030,SN29JE,Medium,Swindon
+E06000031,PE11XX,Medium,Peterborough
+E06000031,PE19SP,Medium,Peterborough
+E06000031,PE25XX,Medium,Peterborough
+E06000032,LU48DB,Medium,Luton
+E06000032,LU49JB,Medium,Luton
+E06000033,SS12YD,Medium,Southend-on-Sea
+E06000033,SS24NY,Medium,Southend-on-Sea
+E06000033,SS91LF,Medium,Southend-on-Sea
+E06000034,RM187SG,Medium,Thurrock
+E06000034,RM191NT,Medium,Thurrock
+E06000034,SS170FX,Medium,Thurrock
+E06000035,ME44TE,Medium,Medway
+E06000035,ME81EE,Medium,Medway
+E06000035,ME86QH,Medium,Medway
+E06000036,RG127HS,Medium,Bracknell Forest
+E06000036,RG129GT,Medium,Bracknell Forest
+E06000036,RG457JY,Medium,Bracknell Forest
+E06000037,RG142DN,Medium,West Berkshire
+E06000037,RG198DR,Medium,West Berkshire
+E06000037,RG208PE,Medium,West Berkshire
+E06000038,RG17TX,Medium,Reading
+E06000038,RG27BD,Medium,Reading
+E06000038,RG316LG,Medium,Reading
+E06000039,SL10EN,High,Slough
+E06000039,SL11RB,High,Slough
+E06000039,SL25ET,High,Slough
+E06000040,SL44AW,Medium,Windsor and Maidenhead
+E06000040,SL44PU,Medium,Windsor and Maidenhead
+E06000040,SL45EB,Medium,Windsor and Maidenhead
+E06000041,RG61EA,Medium,Wokingham
+E06000041,RG71EN,Medium,Wokingham
+E06000041,RG71UH,Medium,Wokingham
+E06000042,MK109JD,Medium,Milton Keynes
+E06000042,MK139BY,Medium,Milton Keynes
+E06000042,MK22FG,Medium,Milton Keynes
+E06000043,BN13WB,Medium,Brighton and Hove
+E06000043,BN24TQ,Medium,Brighton and Hove
+E06000043,BN411GB,Medium,Brighton and Hove
+E06000044,PO13AT,Medium,Portsmouth
+E06000044,PO13GG,Medium,Portsmouth
+E06000044,PO53HJ,Medium,Portsmouth
+E06000045,SO181HT,Medium,Southampton
+E06000045,SO184QF,Medium,Southampton
+E06000045,SO189SH,Medium,Southampton
+E06000046,PO368AD,Medium,Isle of Wight
+E06000046,PO382PR,Medium,Isle of Wight
+E06000046,PO390EU,Medium,Isle of Wight
+E06000047,DL133AP,High,County Durham
+E06000047,DL167NF,High,County Durham
+E06000047,DL170LS,High,County Durham
+E06000049,CW124NS,High,Cheshire East
+E06000049,SK101DE,High,Cheshire East
+E06000049,ST72HY,High,Cheshire East
+E06000050,CH14AF,High,Cheshire West and Chester
+E06000050,CW60NP,High,Cheshire West and Chester
+E06000050,SY148NB,High,Cheshire West and Chester
+E06000051,SY56ND,Medium,Shropshire
+E06000051,SY58EB,Medium,Shropshire
+E06000051,TF118FT,Medium,Shropshire
+E06000052,EX238QA,Medium,Cornwall
+E06000052,TR115SW,Medium,Cornwall
+E06000052,TR275GA,Medium,Cornwall
+E06000054,BA128AN,Medium,Wiltshire
+E06000054,BA147EA,Medium,Wiltshire
+E06000054,SN126GF,Medium,Wiltshire
+E06000055,MK420NS,Medium,Bedford
+E06000055,MK427BS,Medium,Bedford
+E06000055,PE280LJ,Medium,Bedford
+E06000056,LU62PQ,Medium,Central Bedfordshire
+E06000056,MK178DT,Medium,Central Bedfordshire
+E06000056,SG189HF,Medium,Central Bedfordshire
+E06000057,NE209AR,High,Northumberland
+E06000057,NE619UF,High,Northumberland
+E06000057,NE716EN,High,Northumberland
+E06000058,BH122AE,Medium,Bournemouth
+E06000058,BH12LQ,Medium,Bournemouth
+E06000058,BH12LU,Medium,Bournemouth
+E06000059,DT64QN,Medium,Dorset
+E06000059,DT73PH,Medium,Dorset
+E06000059,DT94AF,Medium,Dorset
+E06000060,HP189TB,Medium,Buckinghamshire
+E06000060,HP225ST,Medium,Buckinghamshire
+E06000060,SL85SR,Medium,Buckinghamshire
+E07000008,CB11ES,Medium,Cambridge
+E07000008,CB19JJ,Medium,Cambridge
+E07000008,CB243WF,Medium,Cambridge
+E07000009,CB61DD,Medium,East Cambridgeshire
+E07000009,CB61PE,Medium,East Cambridgeshire
+E07000009,CB79EY,Medium,East Cambridgeshire
+E07000010,PE135AB,Medium,Fenland
+E07000010,PE150UW,Medium,Fenland
+E07000010,PE150XF,Medium,Fenland
+E07000011,PE275PE,Medium,Huntingdonshire
+E07000011,PE289AS,Medium,Huntingdonshire
+E07000011,PE291GF,Medium,Huntingdonshire
+E07000012,CB235FA,Medium,South Cambridgeshire
+E07000012,CB246DT,Medium,South Cambridgeshire
+E07000012,SG85RR,Medium,South Cambridgeshire
+E07000026,CA142SL,Medium,Allerdale
+E07000026,CA143NN,Medium,Allerdale
+E07000026,CA144JQ,Medium,Allerdale
+E07000027,LA141LD,High,Barrow-in-Furness
+E07000027,LA143BS,High,Barrow-in-Furness
+E07000027,LA158AT,High,Barrow-in-Furness
+E07000028,CA38UY,Medium,Carlisle
+E07000028,CA48FH,Medium,Carlisle
+E07000028,CA48RH,Medium,Carlisle
+E07000029,CA255BN,Medium,Copeland
+E07000029,CA255JD,Medium,Copeland
+E07000029,CA286PB,Medium,Copeland
+E07000030,CA101XD,Medium,Eden
+E07000030,CA103NE,Medium,Eden
+E07000030,CA110BQ,Medium,Eden
+E07000031,LA127PA,Medium,South Lakeland
+E07000031,LA231JQ,Medium,South Lakeland
+E07000031,LA50EP,Medium,South Lakeland
+E07000032,DE225JQ,Medium,Amber Valley
+E07000032,DE560LQ,Medium,Amber Valley
+E07000032,DE64NB,Medium,Amber Valley
+E07000033,NG197EA,Medium,Bolsover
+E07000033,NG208BZ,Medium,Bolsover
+E07000033,NG208FW,Medium,Bolsover
+E07000034,S410JQ,High,Chesterfield
+E07000034,S417JF,High,Chesterfield
+E07000034,S418AQ,High,Chesterfield
+E07000035,DE43RG,Medium,Derbyshire Dales
+E07000035,DE44HA,Medium,Derbyshire Dales
+E07000035,DE61DX,Medium,Derbyshire Dales
+E07000036,DE723NW,High,Erewash
+E07000036,DE75DT,High,Erewash
+E07000036,DE79HB,High,Erewash
+E07000037,SK135HN,High,High Peak
+E07000037,SK176JS,Medium,High Peak
+E07000037,SK179XD,Medium,High Peak
+E07000038,S426QU,High,North East Derbyshire
+E07000038,S426SH,High,North East Derbyshire
+E07000038,S445BD,High,North East Derbyshire
+E07000039,DE128EY,Medium,South Derbyshire
+E07000039,DE128NJ,Medium,South Derbyshire
+E07000039,DE243BE,Medium,South Derbyshire
+E07000040,EX137BR,Medium,East Devon
+E07000040,EX143PZ,Medium,East Devon
+E07000040,EX149HH,Medium,East Devon
+E07000041,EX13YP,Medium,Exeter
+E07000041,EX27AW,Medium,Exeter
+E07000041,EX46DZ,Medium,Exeter
+E07000042,EX165LJ,Medium,Mid Devon
+E07000042,EX169PD,Medium,Mid Devon
+E07000042,TA210NW,Medium,Mid Devon
+E07000043,EX174TH,Medium,North Devon
+E07000043,EX314HT,Medium,North Devon
+E07000043,EX320AU,Medium,North Devon
+E07000044,PL219AW,Medium,South Hams
+E07000044,PL219LB,Medium,South Hams
+E07000044,TQ96FL,Medium,South Hams
+E07000045,TQ124AF,Medium,Teignbridge
+E07000045,TQ124JS,Medium,Teignbridge
+E07000045,TQ148AR,Medium,Teignbridge
+E07000046,EX392AF,Medium,Torridge
+E07000046,EX395BH,Medium,Torridge
+E07000046,PL159RQ,Medium,Torridge
+E07000047,EX201HS,Medium,West Devon
+E07000047,EX202NQ,Medium,West Devon
+E07000047,EX203AX,Medium,West Devon
+E07000061,BN208QG,Medium,Eastbourne
+E07000061,BN227NN,Medium,Eastbourne
+E07000061,BN237TE,Medium,Eastbourne
+E07000062,TN342BY,Medium,Hastings
+E07000062,TN380FP,Medium,Hastings
+E07000062,TN388EP,Medium,Hastings
+E07000063,BN108NJ,Medium,Lewes
+E07000063,BN73SL,Medium,Lewes
+E07000063,BN86TA,Medium,Lewes
+E07000064,TN316EG,Medium,Rother
+E07000064,TN401QS,Medium,Rother
+E07000064,TN409SJ,Medium,Rother
+E07000065,BN86HA,Medium,Wealden
+E07000065,RH185AP,Medium,Wealden
+E07000065,TN225LP,Medium,Wealden
+E07000066,CM120EQ,High,Basildon
+E07000066,CM120UA,High,Basildon
+E07000066,SS164AW,High,Basildon
+E07000067,CM74BD,High,Braintree
+E07000067,CO92LJ,High,Braintree
+E07000067,CO94SW,High,Braintree
+E07000068,CM133DZ,High,Brentwood
+E07000068,CM133FL,High,Brentwood
+E07000068,CM159DD,High,Brentwood
+E07000069,SS72PT,High,Castle Point
+E07000069,SS74DE,High,Castle Point
+E07000069,SS88DB,High,Castle Point
+E07000070,CM13BJ,High,Chelmsford
+E07000070,CM28NL,High,Chelmsford
+E07000070,CM33FW,High,Chelmsford
+E07000071,CO19SX,High,Colchester
+E07000071,CO19UE,High,Colchester
+E07000071,CO76EJ,High,Colchester
+E07000072,CM166LR,High,Epping Forest
+E07000072,EN91BQ,High,Epping Forest
+E07000072,IG101PY,High,Epping Forest
+E07000073,CM179DR,High,Harlow
+E07000073,CM179FG,High,Harlow
+E07000073,CM187FT,High,Harlow
+E07000074,CM07SE,High,Maldon
+E07000074,CM36RR,High,Maldon
+E07000074,CM95AE,High,Maldon
+E07000075,SS30QL,High,Rochford
+E07000075,SS49SE,High,Rochford
+E07000075,SS69NU,High,Rochford
+E07000076,CO124JU,High,Tendring
+E07000076,CO148QH,High,Tendring
+E07000076,CO154PQ,High,Tendring
+E07000077,CB101HF,High,Uttlesford
+E07000077,CB102LG,High,Uttlesford
+E07000077,CB102LZ,High,Uttlesford
+E07000078,GL501HP,Medium,Cheltenham
+E07000078,GL502XW,Medium,Cheltenham
+E07000078,GL510NU,Medium,Cheltenham
+E07000079,GL541EN,Medium,Cotswold
+E07000079,GL543EE,Medium,Cotswold
+E07000079,GL556UP,Medium,Cotswold
+E07000080,GL142BP,Medium,Forest of Dean
+E07000080,GL154LS,Medium,Forest of Dean
+E07000080,GL179TL,Medium,Forest of Dean
+E07000081,GL24QL,Medium,Gloucester
+E07000081,GL43SB,Medium,Gloucester
+E07000081,GL45HA,Medium,Gloucester
+E07000082,GL116LQ,Medium,Stroud
+E07000082,GL139EH,Medium,Stroud
+E07000082,GL68EH,Medium,Stroud
+E07000083,GL206JW,Medium,Tewkesbury
+E07000083,GL31HR,Medium,Tewkesbury
+E07000083,GL525FJ,Medium,Tewkesbury
+E07000084,RG209UX,Medium,Basingstoke and Deane
+E07000084,RG224JE,Medium,Basingstoke and Deane
+E07000084,RG224LX,Medium,Basingstoke and Deane
+E07000085,GU343EB,Medium,East Hampshire
+E07000085,GU345NJ,Medium,East Hampshire
+E07000085,PO80LY,Medium,East Hampshire
+E07000086,SO315GW,Medium,Eastleigh
+E07000086,SO504HX,Medium,Eastleigh
+E07000086,SO535BS,Medium,Eastleigh
+E07000087,PO141SB,Medium,Fareham
+E07000087,PO157EQ,Medium,Fareham
+E07000087,SO319BN,Medium,Fareham
+E07000088,PO122BY,Medium,Gosport
+E07000088,PO122TP,Medium,Gosport
+E07000088,PO139LN,Medium,Gosport
+E07000089,GU466XW,Medium,Hart
+E07000089,GU511DY,Medium,Hart
+E07000089,GU528DB,Medium,Hart
+E07000090,PO119AH,Medium,Havant
+E07000090,PO88BD,Medium,Havant
+E07000090,PO91AY,Medium,Havant
+E07000091,SO404YP,Medium,New Forest
+E07000091,SO409AP,Medium,New Forest
+E07000091,SO452NJ,Medium,New Forest
+E07000092,GU111QT,Medium,Rushmoor
+E07000092,GU146LH,Medium,Rushmoor
+E07000092,GU146QF,Medium,Rushmoor
+E07000093,SO516JS,Medium,Test Valley
+E07000093,SP117LZ,Medium,Test Valley
+E07000093,SP97YQ,Medium,Test Valley
+E07000094,SO224AT,Medium,Winchester
+E07000094,SO224LQ,Medium,Winchester
+E07000094,SO240JW,Medium,Winchester
+E07000095,EN107HB,Medium,Broxbourne
+E07000095,EN76RD,Medium,Broxbourne
+E07000095,EN76UN,Medium,Broxbourne
+E07000096,HP11TN,Medium,Dacorum
+E07000096,HP41SA,Medium,Dacorum
+E07000096,HP42HX,Medium,Dacorum
+E07000098,EN61RB,Medium,Hertsmere
+E07000098,WD61RB,Medium,Hertsmere
+E07000098,WD63JF,Medium,Hertsmere
+E07000099,SG48BT,Medium,North Hertfordshire
+E07000099,SG63DW,Medium,North Hertfordshire
+E07000099,SG89EU,Medium,North Hertfordshire
+E07000102,WD195AJ,Medium,Three Rivers
+E07000102,WD31DW,Medium,Three Rivers
+E07000102,WD36DD,Medium,Three Rivers
+E07000103,WD173AW,Medium,Watford
+E07000103,WD180HY,Medium,Watford
+E07000103,WD257DD,Medium,Watford
+E07000105,TN240UL,Medium,Ashford
+E07000105,TN261EP,Medium,Ashford
+E07000105,TN278LZ,Medium,Ashford
+E07000106,CT12TX,Medium,Canterbury
+E07000106,CT28PX,Medium,Canterbury
+E07000106,CT46AR,Medium,Canterbury
+E07000107,DA13DH,Medium,Dartford
+E07000107,DA28AY,Medium,Dartford
+E07000107,DA99NN,Medium,Dartford
+E07000108,CT147DH,Medium,Dover
+E07000108,CT170PF,Medium,Dover
+E07000108,CT31HF,Medium,Dover
+E07000109,DA124HA,Medium,Gravesham
+E07000109,DA130UF,Medium,Gravesham
+E07000109,DA130XS,Medium,Gravesham
+E07000110,ME156DT,Medium,Maidstone
+E07000110,ME97UR,Medium,Maidstone
+E07000110,TN120AZ,Medium,Maidstone
+E07000111,BR87LP,Medium,Sevenoaks
+E07000111,TN118QR,Medium,Sevenoaks
+E07000111,TN156TQ,Medium,Sevenoaks
+E07000112,CT194EZ,Medium,Folkestone and Hythe
+E07000112,CT215DY,Medium,Folkestone and Hythe
+E07000112,TN299TD,Medium,Folkestone and Hythe
+E07000113,ME121UJ,Medium,Swale
+E07000113,ME137YZ,Medium,Swale
+E07000113,ME138FP,Medium,Swale
+E07000114,CT101EA,Medium,Thanet
+E07000114,CT126HR,Medium,Thanet
+E07000114,CT79RT,Medium,Thanet
+E07000115,TN103HG,Medium,Tonbridge and Malling
+E07000115,TN125BX,Medium,Tonbridge and Malling
+E07000115,TN91LY,Medium,Tonbridge and Malling
+E07000116,TN172HX,Medium,Tunbridge Wells
+E07000116,TN23XY,Medium,Tunbridge Wells
+E07000116,TN48EG,Medium,Tunbridge Wells
+E07000117,BB126JD,Very High,Burnley
+E07000117,BB127AB,Very High,Burnley
+E07000117,BB127JH,Very High,Burnley
+E07000118,PR69RJ,Very High,Chorley
+E07000118,PR72FB,Very High,Chorley
+E07000118,PR75QS,Very High,Chorley
+E07000119,FY85AF,Very High,Fylde
+E07000119,PR41PB,Very High,Fylde
+E07000119,PR43JE,Very High,Fylde
+E07000120,BB52ER,Very High,Hyndburn
+E07000120,BB52ES,Very High,Hyndburn
+E07000120,BB54HP,Very High,Hyndburn
+E07000121,LA26EB,Very High,Lancaster
+E07000121,LA32HR,Very High,Lancaster
+E07000121,LA63LX,Very High,Lancaster
+E07000122,BB185ED,Very High,Pendle
+E07000122,BB87LZ,Very High,Pendle
+E07000122,BB98RP,Very High,Pendle
 E07000123,PR12QH,Very High,Preston
-E07000123,PR26HA,Very High,Preston
-E07000123,PR26JY,Very High,Preston
-E07000124,BB127NN,Very High,Ribble Valley
-E07000124,BB27JD,Very High,Ribble Valley
-E07000124,BB74TN,Very High,Ribble Valley
-E07000125,BB47SP,Very High,Rossendale
-E07000125,BB48TB,Very High,Rossendale
-E07000125,OL130ST,Very High,Rossendale
-E07000126,PR255DD,Very High,South Ribble
-E07000126,PR55LE,Very High,South Ribble
-E07000126,PR56QY,Very High,South Ribble
-E07000127,L393QT,Very High,West Lancashire
-E07000127,PR98GZ,Very High,West Lancashire
-E07000127,WN88JQ,Very High,West Lancashire
-E07000128,FY55NT,Very High,Wyre
-E07000128,FY77NB,Very High,Wyre
-E07000129,LE29TH,Medium,Blaby
-E07000129,LE94DX,Medium,Blaby
-E07000129,LE94JA,Medium,Blaby
-E07000130,LE112UF,Medium,Charnwood
-E07000130,LE113GR,Medium,Charnwood
-E07000130,LE128DE,Medium,Charnwood
-E07000131,LE167GP,Medium,Harborough
-E07000131,LE168GJ,Medium,Harborough
-E07000131,LE88DJ,Medium,Harborough
-E07000132,CV136NW,Medium,Hinckley and Bosworth
-E07000132,LE100SQ,Medium,Hinckley and Bosworth
-E07000132,LE97LE,Medium,Hinckley and Bosworth
-E07000133,LE139SH,Medium,Melton
-E07000133,LE142AU,Medium,Melton
-E07000133,LE144DT,Medium,Melton
-E07000134,DE126ES,Medium,North West Leicestershire
-E07000134,DE127LT,Medium,North West Leicestershire
-E07000134,LE674JN,Medium,North West Leicestershire
-E07000135,LE24FN,High,Oadby and Wigston
-E07000135,LE24UH,High,Oadby and Wigston
-E07000135,LE25GE,High,Oadby and Wigston
-E07000136,PE217FE,Medium,Boston
-E07000136,PE217SU,Medium,Boston
-E07000136,PE220JP,Medium,Boston
-E07000137,LN44JD,Medium,East Lindsey
-E07000137,PE245DW,Medium,East Lindsey
-E07000137,PE251QQ,Medium,East Lindsey
-E07000138,LN13XD,Medium,Lincoln
-E07000138,LN55SB,Medium,Lincoln
-E07000138,LN67LG,Medium,Lincoln
-E07000139,LN42EP,Medium,North Kesteven
-E07000139,NG347GU,Medium,North Kesteven
-E07000139,NG349WJ,Medium,North Kesteven
-E07000140,PE113ZS,Medium,South Holland
-E07000140,PE127PQ,Medium,South Holland
-E07000140,PE129UF,Medium,South Holland
-E07000141,NG321NA,Medium,South Kesteven
-E07000141,NG323LE,Medium,South Kesteven
-E07000141,PE109DW,Medium,South Kesteven
-E07000142,LN23SZ,Medium,West Lindsey
-E07000142,LN35BQ,Medium,West Lindsey
-E07000142,LN83AR,Medium,West Lindsey
-E07000143,IP256DU,Medium,Breckland
-E07000143,NR191HS,Medium,Breckland
-E07000143,NR204DU,Medium,Breckland
-E07000144,NR134QB,Medium,Broadland
-E07000144,NR78ZZ,Medium,Broadland
-E07000144,NR79HR,Medium,Broadland
-E07000145,NR293LN,Medium,Great Yarmouth
-E07000145,NR305EW,Medium,Great Yarmouth
-E07000145,NR317EY,Medium,Great Yarmouth
-E07000146,PE303TS,Medium,King's Lynn and West Norfolk
-E07000146,PE330BJ,Medium,King's Lynn and West Norfolk
-E07000146,PE389SX,Medium,King's Lynn and West Norfolk
-E07000147,NR242QJ,Medium,North Norfolk
-E07000147,NR270AW,Medium,North Norfolk
-E07000147,NR289UT,Medium,North Norfolk
-E07000148,NR33NY,Medium,Norwich
-E07000148,NR34SA,Medium,Norwich
-E07000148,NR79NN,Medium,Norwich
-E07000149,NR161DL,Medium,South Norfolk
-E07000149,NR180PD,Medium,South Norfolk
-E07000149,NR180RE,Medium,South Norfolk
-E07000150,NN172PL,Medium,Corby
-E07000150,NN179EW,Medium,Corby
-E07000150,NN189AD,Medium,Corby
-E07000151,NN113FD,Medium,Daventry
-E07000151,NN114DJ,Medium,Daventry
-E07000151,NN67NX,Medium,Daventry
-E07000152,NN100QW,Medium,East Northamptonshire
-E07000152,NN143NB,Medium,East Northamptonshire
-E07000152,NN166UL,Medium,East Northamptonshire
-E07000153,NN157PE,Medium,Kettering
-E07000153,NN160BJ,Medium,Kettering
-E07000153,NN166UB,Medium,Kettering
-E07000154,NN35BA,Medium,Northampton
-E07000154,NN40NL,Medium,Northampton
-E07000154,NN55DU,Medium,Northampton
-E07000155,NN128EE,Medium,South Northamptonshire
-E07000155,NN128JB,Medium,South Northamptonshire
-E07000155,NN136QU,Medium,South Northamptonshire
-E07000156,NN71JR,Medium,Wellingborough
-E07000156,NN83GF,Medium,Wellingborough
-E07000156,NN84RW,Medium,Wellingborough
-E07000163,BD207AJ,Medium,Craven
-E07000163,BD207NL,Medium,Craven
-E07000163,LA63HP,Medium,Craven
-E07000164,TS97DX,Medium,Hambleton
-E07000164,YO613GG,Medium,Hambleton
-E07000164,YO73JQ,Medium,Hambleton
-E07000165,HG12HL,Medium,Harrogate
-E07000165,HG14AW,Medium,Harrogate
-E07000165,YO612RJ,Medium,Harrogate
-E07000166,DL85HB,Medium,Richmondshire
-E07000166,DL85JS,Medium,Richmondshire
-E07000166,DL85PZ,Medium,Richmondshire
-E07000167,YO178NU,Medium,Ryedale
-E07000167,YO179PL,Medium,Ryedale
-E07000167,YO188DY,Medium,Ryedale
-E07000168,TS135LG,Medium,Scarborough
-E07000168,YO111HR,Medium,Scarborough
-E07000168,YO125LY,Medium,Scarborough
-E07000169,LS256PP,Medium,Selby
-E07000169,WF119JY,Medium,Selby
-E07000169,YO232PT,Medium,Selby
+E07000123,PR23SX,Very High,Preston
+E07000123,PR29HP,Very High,Preston
+E07000124,BB27FS,Very High,Ribble Valley
+E07000124,PR32TJ,Very High,Ribble Valley
+E07000124,PR33TN,Very High,Ribble Valley
+E07000125,BB47HF,Very High,Rossendale
+E07000125,BB48PN,Very High,Rossendale
+E07000125,BL00JN,Very High,Rossendale
+E07000126,PR19DB,Very High,South Ribble
+E07000126,PR19JA,Very High,South Ribble
+E07000126,PR77BF,Very High,South Ribble
+E07000127,L398YX,Very High,West Lancashire
+E07000127,PR46TP,Very High,West Lancashire
+E07000127,WN80NT,Very High,West Lancashire
+E07000128,FY52SU,Very High,Wyre
+E07000128,LA20EX,Very High,Wyre
+E07000128,PR31ED,Very High,Wyre
+E07000129,LE38GH,Medium,Blaby
+E07000129,LE84DH,Medium,Blaby
+E07000129,LE93HB,Medium,Blaby
+E07000130,LE128HX,Medium,Charnwood
+E07000130,LE44LL,Medium,Charnwood
+E07000130,LE48PA,Medium,Charnwood
+E07000131,LE174GN,Medium,Harborough
+E07000131,LE79DE,Medium,Harborough
+E07000131,LE89FD,Medium,Harborough
+E07000132,CV93SP,Medium,Hinckley and Bosworth
+E07000132,LE103BT,Medium,Hinckley and Bosworth
+E07000132,LE103DS,Medium,Hinckley and Bosworth
+E07000133,LE142UU,Medium,Melton
+E07000133,LE143PR,Medium,Melton
+E07000133,NG130EE,Medium,Melton
+E07000134,LE672RF,Medium,North West Leicestershire
+E07000134,LE673GH,Medium,North West Leicestershire
+E07000134,LE674DA,Medium,North West Leicestershire
+E07000135,LE181NY,High,Oadby and Wigston
+E07000135,LE183XE,High,Oadby and Wigston
+E07000135,LE184PA,High,Oadby and Wigston
+E07000136,PE210AD,Medium,Boston
+E07000136,PE210DG,Medium,Boston
+E07000136,PE216NX,Medium,Boston
+E07000137,LN122PG,Medium,East Lindsey
+E07000137,LN130DR,Medium,East Lindsey
+E07000137,PE252LH,Medium,East Lindsey
+E07000138,LN24BU,Medium,Lincoln
+E07000138,LN58PF,Medium,Lincoln
+E07000138,LN67FW,Medium,Lincoln
+E07000139,LN68QW,Medium,North Kesteven
+E07000139,NG348SU,Medium,North Kesteven
+E07000139,NG349RZ,Medium,North Kesteven
+E07000140,PE113EP,Medium,South Holland
+E07000140,PE114EJ,Medium,South Holland
+E07000140,PE128BQ,Medium,South Holland
+E07000141,NG235HR,Medium,South Kesteven
+E07000141,NG340HW,Medium,South Kesteven
+E07000141,PE100ZF,Medium,South Kesteven
+E07000142,DN213TE,Medium,West Lindsey
+E07000142,DN378LZ,Medium,West Lindsey
+E07000142,LN35XD,Medium,West Lindsey
+E07000143,IP256BU,Medium,Breckland
+E07000143,NR171XZ,Medium,Breckland
+E07000143,PE322EA,Medium,Breckland
+E07000144,NR136AL,Medium,Broadland
+E07000144,NR136JH,Medium,Broadland
+E07000144,NR70NQ,Medium,Broadland
+E07000145,NR303PF,Medium,Great Yarmouth
+E07000145,NR316BZ,Medium,Great Yarmouth
+E07000145,NR317ND,Medium,Great Yarmouth
+E07000146,IP264PR,Medium,King's Lynn and West Norfolk
+E07000146,PE149SF,Medium,King's Lynn and West Norfolk
+E07000146,PE303XD,Medium,King's Lynn and West Norfolk
+E07000147,NR219AG,Medium,North Norfolk
+E07000147,NR270FB,Medium,North Norfolk
+E07000147,NR295DE,Medium,North Norfolk
+E07000148,NR22EB,Medium,Norwich
+E07000148,NR24DS,Medium,Norwich
+E07000148,NR32FF,Medium,Norwich
+E07000149,NR146SB,Medium,South Norfolk
+E07000149,NR340AH,Medium,South Norfolk
+E07000149,NR47TA,Medium,South Norfolk
+E07000150,NN171XS,Medium,Corby
+E07000150,NN180TE,Medium,Corby
+E07000150,NN188SQ,Medium,Corby
+E07000151,NN111SQ,Medium,Daventry
+E07000151,NN114FH,Medium,Daventry
+E07000151,NN66EF,Medium,Daventry
+E07000152,NN108NP,Medium,East Northamptonshire
+E07000152,NN144UU,Medium,East Northamptonshire
+E07000152,NN96FY,Medium,East Northamptonshire
+E07000153,NN169FA,Medium,Kettering
+E07000153,NN169GZ,Medium,Kettering
+E07000153,NN169TY,Medium,Kettering
+E07000154,NN39EG,Medium,Northampton
+E07000154,NN54AL,Medium,Northampton
+E07000154,NN56QP,Medium,Northampton
+E07000155,NN113PS,Medium,South Northamptonshire
+E07000155,NN135RY,Medium,South Northamptonshire
+E07000155,NN135TL,Medium,South Northamptonshire
+E07000156,NN297AX,Medium,Wellingborough
+E07000156,NN84AT,Medium,Wellingborough
+E07000156,NN95JL,Medium,Wellingborough
+E07000163,BD207BY,Medium,Craven
+E07000163,BD207LB,Medium,Craven
+E07000163,BD233DW,Medium,Craven
+E07000164,DL70TU,Medium,Hambleton
+E07000164,YO613HU,Medium,Hambleton
+E07000164,YO74ER,Medium,Hambleton
+E07000165,HG12AR,Medium,Harrogate
+E07000165,HG27DP,Medium,Harrogate
+E07000165,HG31JH,Medium,Harrogate
+E07000166,DL104UE,Medium,Richmondshire
+E07000166,DL84HP,Medium,Richmondshire
+E07000166,DL85FB,Medium,Richmondshire
+E07000167,YO179SY,Medium,Ryedale
+E07000167,YO607JH,Medium,Ryedale
+E07000167,YO626DX,Medium,Ryedale
+E07000168,YO212LD,Medium,Scarborough
+E07000168,YO213BN,Medium,Scarborough
+E07000168,YO213HD,Medium,Scarborough
+E07000169,LS248DG,Medium,Selby
+E07000169,YO89JF,Medium,Selby
+E07000169,YO89QU,Medium,Selby
+E07000170,NG157LS,High,Ashfield
 E07000170,NG171BX,High,Ashfield
-E07000170,NG171FS,High,Ashfield
-E07000170,NG175FT,High,Ashfield
-E07000171,DN105GA,High,Bassetlaw
-E07000171,DN220PB,High,Bassetlaw
-E07000171,S819NZ,High,Bassetlaw
-E07000172,NG163AP,High,Broxtowe
-E07000172,NG169DP,High,Broxtowe
-E07000172,NG96FT,High,Broxtowe
-E07000173,NG41GZ,High,Gedling
-E07000173,NG42DB,High,Gedling
-E07000173,NG50HX,High,Gedling
-E07000174,NG181ZH,High,Mansfield
-E07000174,NG184AB,High,Mansfield
-E07000174,NG185BS,High,Mansfield
-E07000175,NG210DS,High,Newark and Sherwood
-E07000175,NG219HP,High,Newark and Sherwood
-E07000175,NG229RB,High,Newark and Sherwood
-E07000176,NG116GL,High,Rushcliffe
-E07000176,NG122EB,High,Rushcliffe
-E07000176,NG26QX,High,Rushcliffe
-E07000177,OX161XD,Medium,Cherwell
-E07000177,OX263EZ,Medium,Cherwell
-E07000177,OX266JB,Medium,Cherwell
-E07000178,OX26HS,Medium,Oxford
-E07000178,OX30JZ,Medium,Oxford
-E07000178,OX41RE,Medium,Oxford
-E07000179,OX100PT,Medium,South Oxfordshire
-E07000179,OX106DS,Medium,South Oxfordshire
-E07000179,OX394BT,Medium,South Oxfordshire
-E07000180,OX120NL,Medium,Vale of White Horse
-E07000180,OX127HA,Medium,Vale of White Horse
-E07000180,SN78JG,Medium,Vale of White Horse
-E07000181,OX286ED,Medium,West Oxfordshire
-E07000181,OX74NS,Medium,West Oxfordshire
-E07000181,OX75HS,Medium,West Oxfordshire
-E07000187,BA46BD,Medium,Mendip
-E07000187,BA68TE,Medium,Mendip
-E07000187,BA68TX,Medium,Mendip
-E07000188,TA52JD,Medium,Sedgemoor
-E07000188,TA63DA,Medium,Sedgemoor
-E07000188,TA67DA,Medium,Sedgemoor
-E07000189,BA201TZ,Medium,South Somerset
-E07000189,TA188DT,Medium,South Somerset
-E07000189,TA188QN,Medium,South Somerset
-E07000192,WS110AT,Medium,Cannock Chase
-E07000192,WS114NT,Medium,Cannock Chase
-E07000192,WS151PE,Medium,Cannock Chase
-E07000193,DE130WB,Medium,East Staffordshire
-E07000193,DE139BH,Medium,East Staffordshire
-E07000193,ST148PQ,Medium,East Staffordshire
-E07000194,B783RE,Medium,Lichfield
-E07000194,WS138RA,Medium,Lichfield
-E07000194,WS70JY,Medium,Lichfield
-E07000195,CW39HG,Medium,Newcastle-under-Lyme
-E07000195,ST51EL,Medium,Newcastle-under-Lyme
-E07000195,ST55EU,Medium,Newcastle-under-Lyme
-E07000196,WV112AZ,Medium,South Staffordshire
-E07000196,WV50DB,Medium,South Staffordshire
-E07000196,WV95BQ,Medium,South Staffordshire
-E07000197,ST119HS,Medium,Stafford
-E07000197,ST180NJ,Medium,Stafford
-E07000197,ST180WD,Medium,Stafford
-E07000198,ST101BP,Medium,Staffordshire Moorlands
-E07000198,ST136DY,Medium,Staffordshire Moorlands
-E07000198,ST99LQ,Medium,Staffordshire Moorlands
-E07000199,B772LG,Medium,Tamworth
-E07000199,B774LU,Medium,Tamworth
-E07000199,B797HT,Medium,Tamworth
-E07000200,CO105DX,Medium,Babergh
-E07000200,CO76PQ,Medium,Babergh
-E07000200,IP83ED,Medium,Babergh
-E07000202,IP12JP,Medium,Ipswich
-E07000202,IP28HY,Medium,Ipswich
-E07000202,IP44LQ,Medium,Ipswich
-E07000203,IP143EH,Medium,Mid Suffolk
-E07000203,IP145BS,Medium,Mid Suffolk
-E07000203,IP309BL,Medium,Mid Suffolk
-E07000207,KT125AE,High,Elmbridge
-E07000207,KT70AL,High,Elmbridge
-E07000207,KT70JY,High,Elmbridge
-E07000208,KT171LY,Medium,Epsom and Ewell
-E07000208,KT187JP,Medium,Epsom and Ewell
-E07000208,KT199JG,Medium,Epsom and Ewell
-E07000209,GU101JD,Medium,Guildford
-E07000209,GU13XY,Medium,Guildford
-E07000209,GU33BS,Medium,Guildford
-E07000210,KT233HD,Medium,Mole Valley
-E07000210,RH43JY,Medium,Mole Valley
-E07000210,RH56AW,Medium,Mole Valley
-E07000211,RH19GR,Medium,Reigate and Banstead
-E07000211,RH20WE,Medium,Reigate and Banstead
-E07000211,RH28NF,Medium,Reigate and Banstead
-E07000212,KT152JF,Medium,Runnymede
-E07000212,KT152UG,Medium,Runnymede
-E07000212,KT168LS,Medium,Runnymede
-E07000213,TW165GB,Medium,Spelthorne
-E07000213,TW182TB,Medium,Spelthorne
-E07000213,TW197QT,Medium,Spelthorne
-E07000214,GU166QB,Medium,Surrey Heath
-E07000214,GU168RJ,Medium,Surrey Heath
-E07000214,GU195HN,Medium,Surrey Heath
-E07000215,CR35LL,Medium,Tandridge
-E07000215,CR36LR,Medium,Tandridge
-E07000215,CR37HL,Medium,Tandridge
-E07000216,GU101PG,Medium,Waverley
-E07000216,GU67DG,Medium,Waverley
-E07000216,GU72PP,Medium,Waverley
-E07000217,GU215QB,Medium,Woking
-E07000217,GU220AN,Medium,Woking
-E07000217,GU228DR,Medium,Woking
-E07000218,B462EF,Medium,North Warwickshire
-E07000218,B463AL,Medium,North Warwickshire
-E07000218,B781QA,Medium,North Warwickshire
-E07000219,CV107GF,Medium,Nuneaton and Bedworth
-E07000219,CV109RD,Medium,Nuneaton and Bedworth
-E07000219,CV114SW,Medium,Nuneaton and Bedworth
-E07000220,CV211FS,Medium,Rugby
-E07000220,CV214AJ,Medium,Rugby
-E07000220,CV214BT,Medium,Rugby
-E07000221,B955EQ,Medium,Stratford-on-Avon
-E07000221,CV365NX,Medium,Stratford-on-Avon
-E07000221,CV471EH,Medium,Stratford-on-Avon
-E07000222,B945QY,Medium,Warwick
-E07000222,CV344UP,Medium,Warwick
-E07000222,CV345JZ,Medium,Warwick
-E07000223,BN150HN,Medium,Adur
-E07000223,BN435SA,Medium,Adur
-E07000223,BN436GA,Medium,Adur
-E07000224,BN169SP,Medium,Arun
-E07000224,PO211BS,Medium,Arun
-E07000224,PO226HR,Medium,Arun
-E07000225,GU273LQ,Medium,Chichester
-E07000225,PO189JW,Medium,Chichester
-E07000225,PO193HF,Medium,Chichester
-E07000226,RH101JS,Medium,Crawley
-E07000226,RH101TT,Medium,Crawley
-E07000226,RH106QG,Medium,Crawley
-E07000227,BN443NB,Medium,Horsham
-E07000227,RH121NG,Medium,Horsham
-E07000227,RH203GZ,Medium,Horsham
-E07000228,RH158QL,Medium,Mid Sussex
-E07000228,RH159NH,Medium,Mid Sussex
-E07000228,RH159RQ,Medium,Mid Sussex
-E07000229,BN111PN,Medium,Worthing
-E07000229,BN119BG,Medium,Worthing
-E07000229,BN131PY,Medium,Worthing
-E07000234,B324AT,Medium,Bromsgrove
-E07000234,B603LT,Medium,Bromsgrove
-E07000234,B619BG,Medium,Bromsgrove
-E07000235,WR141RQ,Medium,Malvern Hills
-E07000235,WR65EH,Medium,Malvern Hills
-E07000235,WR66YR,Medium,Malvern Hills
-E07000236,B975AD,Medium,Redditch
-E07000236,B976BU,Medium,Redditch
-E07000236,B987BU,Medium,Redditch
-E07000237,WR13HY,Medium,Worcester
-E07000237,WR24AQ,Medium,Worcester
-E07000237,WR52FX,Medium,Worcester
-E07000238,WR114LF,Medium,Wychavon
-E07000238,WR117ST,Medium,Wychavon
-E07000239,DY121JZ,Medium,Wyre Forest
-E07000239,DY138XW,Medium,Wyre Forest
-E07000239,WV981RZ,Medium,Wyre Forest
-E07000240,AL21NQ,Medium,St Albans
-E07000240,AL22QT,Medium,St Albans
-E07000240,AL55LA,Medium,St Albans
-E07000241,AL109GN,Medium,Welwyn Hatfield
-E07000241,AL72AF,Medium,Welwyn Hatfield
-E07000241,AL72PF,Medium,Welwyn Hatfield
-E07000242,SG120NZ,Medium,East Hertfordshire
-E07000242,SG128FL,Medium,East Hertfordshire
-E07000242,SG27EW,Medium,East Hertfordshire
-E07000243,SG12NE,Medium,Stevenage
-E07000243,SG20DF,Medium,Stevenage
-E07000243,SG28NE,Medium,Stevenage
-E07000244,IP119SN,Medium,East Suffolk
-E07000244,IP164FA,Medium,East Suffolk
-E07000244,IP69PA,Medium,East Suffolk
-E07000245,CB87DN,Medium,West Suffolk
-E07000245,IP294AQ,Medium,West Suffolk
-E07000245,IP326AX,Medium,West Suffolk
-E07000246,TA229RR,Medium,Somerset West and Taunton
-E07000246,TA26PX,Medium,Somerset West and Taunton
-E07000246,TA44NS,Medium,Somerset West and Taunton
-E08000001,BL15XB,Very High,Bolton
-E08000001,BL25AH,Very High,Bolton
-E08000001,BL79AB,Very High,Bolton
-E08000002,BL00AH,Very High,Bury
-E08000002,BL09EJ,Very High,Bury
-E08000002,M261WA,Very High,Bury
-E08000003,M130FN,Very High,Manchester
-E08000003,M188LD,Very High,Manchester
-E08000003,M232GL,Very High,Manchester
-E08000004,OL12RR,Very High,Oldham
-E08000004,OL13QW,Very High,Oldham
-E08000004,OL36AU,Very High,Oldham
-E08000005,M242SP,Very High,Rochdale
-E08000005,OL114PQ,Very High,Rochdale
-E08000005,OL158AL,Very High,Rochdale
-E08000006,M281FZ,Very High,Salford
-E08000006,M445DP,Very High,Salford
-E08000006,M54HJ,Very High,Salford
-E08000007,SK25XE,Very High,Stockport
-E08000007,SK42QH,Very High,Stockport
-E08000007,SK56HQ,Very High,Stockport
-E08000008,M436DX,Very High,Tameside
-E08000008,OL50QQ,Very High,Tameside
-E08000008,SK141HE,Very High,Tameside
-E08000009,M178AN,Very High,Trafford
-E08000009,M314JA,Very High,Trafford
-E08000009,WA144LA,Very High,Trafford
-E08000010,WN11YF,Very High,Wigan
-E08000010,WN13UJ,Very High,Wigan
-E08000010,WN36DB,Very High,Wigan
-E08000011,L148UY,Very High,Knowsley
-E08000011,L343LN,Very High,Knowsley
-E08000011,L360UR,Very High,Knowsley
-E08000012,L11QR,Very High,Liverpool
-E08000012,L256LB,Very High,Liverpool
-E08000012,L258TG,Very High,Liverpool
-E08000013,WA103LL,Very High,St. Helens
-E08000013,WA105BZ,Very High,St. Helens
-E08000013,WA106PZ,Very High,St. Helens
-E08000014,L227RX,Very High,Sefton
-E08000014,L374BW,Very High,Sefton
-E08000014,PR83RS,Very High,Sefton
-E08000015,CH439TE,Very High,Wirral
-E08000015,CH473AD,Very High,Wirral
-E08000015,CH604TD,Very High,Wirral
-E08000016,S727DT,Very High,Barnsley
-E08000016,S728SW,Very High,Barnsley
-E08000016,S730JZ,Very High,Barnsley
-E08000017,DN58QX,Very High,Doncaster
-E08000017,DN75PT,Very High,Doncaster
-E08000017,S640BX,Very High,Doncaster
-E08000018,S605HZ,Very High,Rotherham
-E08000018,S608BQ,Very High,Rotherham
-E08000018,S663YH,Very High,Rotherham
-E08000019,S62BJ,Very High,Sheffield
-E08000019,S66AE,Very High,Sheffield
-E08000019,S80UY,Very High,Sheffield
-E08000021,NE51DS,High,Newcastle upon Tyne
-E08000021,NE51JX,High,Newcastle upon Tyne
-E08000021,NE69BP,High,Newcastle upon Tyne
-E08000022,NE270TS,High,North Tyneside
-E08000022,NE280QF,High,North Tyneside
-E08000022,NE296AS,High,North Tyneside
-E08000023,NE311NE,High,South Tyneside
-E08000023,NE324AS,High,South Tyneside
-E08000023,NE360BJ,High,South Tyneside
-E08000024,DH44AP,High,Sunderland
-E08000024,SR20LD,High,Sunderland
-E08000024,SR34EL,High,Sunderland
-E08000025,B151HF,High,Birmingham
-E08000025,B263BJ,High,Birmingham
-E08000025,B762TP,High,Birmingham
-E08000026,CV11FZ,High,Coventry
-E08000026,CV23AH,High,Coventry
-E08000026,CV32DU,High,Coventry
-E08000027,B629RN,Medium,Dudley
-E08000027,DY68DU,Medium,Dudley
-E08000027,DY82DU,Medium,Dudley
-E08000028,B650RU,High,Sandwell
-E08000028,B677EF,High,Sandwell
-E08000028,DY40XS,High,Sandwell
-E08000029,B263QD,High,Solihull
-E08000029,B901AG,High,Solihull
-E08000029,B927RT,High,Solihull
-E08000030,B437LS,High,Walsall
-E08000030,WS20BH,High,Walsall
-E08000030,WS31EP,High,Walsall
-E08000031,WV140LG,High,Wolverhampton
-E08000031,WV19JB,High,Wolverhampton
-E08000031,WV44PD,High,Wolverhampton
-E08000032,BD176NQ,High,Bradford
-E08000032,BD212NB,High,Bradford
-E08000032,BD23RW,High,Bradford
-E08000033,HX15JS,High,Calderdale
-E08000033,HX20EJ,High,Calderdale
-E08000033,HX78PR,High,Calderdale
-E08000034,HD75BD,High,Kirklees
-E08000034,WF127EQ,High,Kirklees
-E08000034,WF169NW,High,Kirklees
-E08000035,LS122TQ,High,Leeds
-E08000035,LS150QL,High,Leeds
-E08000035,LS277PB,High,Leeds
-E08000036,WF104GZ,High,Wakefield
-E08000036,WF46DS,High,Wakefield
-E08000036,WF94RB,High,Wakefield
-E08000037,NE109AZ,High,Gateshead
-E08000037,NE215JE,High,Gateshead
-E08000037,NE83JL,High,Gateshead
-E09000001,EC3N4AL,High,City of London
-E09000001,EC4M7HP,High,City of London
-E09000001,EC4M9BE,High,City of London
-E09000002,IG117HW,High,Barking and Dagenham
-E09000002,RM81PT,High,Barking and Dagenham
-E09000002,RM82PT,High,Barking and Dagenham
-E09000003,EN48EE,High,Barnet
-E09000003,HA87AU,High,Barnet
-E09000003,NW41JY,High,Barnet
-E09000004,DA145AP,High,Bexley
-E09000004,DA68PQ,High,Bexley
-E09000004,DA74AR,High,Bexley
-E09000005,HA96RR,High,Brent
-E09000005,HA97LT,High,Brent
-E09000005,NW107XT,High,Brent
-E09000006,BR13EU,High,Bromley
-E09000006,BR20RA,High,Bromley
-E09000006,BR28DW,High,Bromley
-E09000007,NW14HN,High,Camden
-E09000007,NW14HZ,High,Camden
-E09000007,NW1W8SX,High,Camden
-E09000008,CR01AD,High,Croydon
-E09000008,CR53GF,High,Croydon
-E09000008,SE193NS,High,Croydon
-E09000009,UB24NY,High,Ealing
-E09000009,UB67HS,High,Ealing
-E09000009,W53UL,High,Ealing
-E09000010,EN14LF,High,Enfield
-E09000010,EN27RE,High,Enfield
-E09000010,N97BT,High,Enfield
-E09000011,SE100AH,High,Greenwich
-E09000011,SE187LR,High,Greenwich
-E09000011,SE187RB,High,Greenwich
-E09000012,EC2A4XA,High,Hackney
-E09000012,N14LR,High,Hackney
-E09000012,N165GZ,High,Hackney
-E09000013,SW65DP,High,Hammersmith and Fulham
-E09000013,SW65XB,High,Hammersmith and Fulham
-E09000013,W149DU,High,Hammersmith and Fulham
-E09000014,N154HW,High,Haringey
-E09000014,N65TX,High,Haringey
-E09000014,N80HN,High,Haringey
-E09000015,HA14HL,High,Harrow
-E09000015,HA39LT,High,Harrow
-E09000015,HA86TE,High,Harrow
-E09000016,RM124LQ,High,Havering
-E09000016,RM26DE,High,Havering
-E09000016,RM79DF,High,Havering
-E09000017,HA46HE,High,Hillingdon
-E09000017,HA52LQ,High,Hillingdon
-E09000017,UB49PL,High,Hillingdon
-E09000018,TW31YL,High,Hounslow
-E09000018,TW34DF,High,Hounslow
-E09000018,TW80NP,High,Hounslow
-E09000019,N11EH,High,Islington
-E09000019,N11NE,High,Islington
-E09000019,WC1A9NZ,High,Islington
-E09000020,SW1W8NN,High,Kensington and Chelsea
-E09000020,SW35LT,High,Kensington and Chelsea
-E09000020,W112EF,High,Kensington and Chelsea
-E09000021,KT12EG,High,Kingston upon Thames
-E09000021,KT26EE,High,Kingston upon Thames
-E09000021,KT67UH,High,Kingston upon Thames
-E09000022,SE116DJ,High,Lambeth
-E09000022,SE18UF,High,Lambeth
-E09000022,SW161NL,High,Lambeth
-E09000023,SE120NL,High,Lewisham
-E09000023,SE129LT,High,Lewisham
-E09000023,SE64PZ,High,Lewisham
-E09000024,CR44BR,High,Merton
-E09000024,SW209DR,High,Merton
-E09000024,SW209JF,High,Merton
-E09000025,E162SZ,High,Newham
-E09000025,E65JW,High,Newham
-E09000025,E70JN,High,Newham
-E09000026,IG14PT,High,Redbridge
-E09000026,IG18TA,High,Redbridge
-E09000026,IG26LX,High,Redbridge
-E09000027,TW106JB,High,Richmond upon Thames
-E09000027,TW118JJ,High,Richmond upon Thames
-E09000027,TW94ED,High,Richmond upon Thames
-E09000028,SE10LT,High,Southwark
-E09000028,SE1P4DE,High,Southwark
-E09000028,SE57HE,High,Southwark
-E09000029,SM52PH,High,Sutton
-E09000029,SM68SA,High,Sutton
-E09000029,SM69FN,High,Sutton
-E09000030,E143NU,High,Tower Hamlets
-E09000030,E33GU,High,Tower Hamlets
-E09000030,E33RT,High,Tower Hamlets
-E09000031,E46PR,High,Waltham Forest
-E09000031,E47HA,High,Waltham Forest
-E09000031,E79ED,High,Waltham Forest
-E09000032,SW114FA,High,Wandsworth
-E09000032,SW129AR,High,Wandsworth
-E09000032,SW182QB,High,Wandsworth
-E09000033,SW1A1LS,High,Westminster
-E09000033,SW1W0PT,High,Westminster
-E09000033,W1G9LD,High,Westminster
+E07000170,NG175JU,High,Ashfield
+E07000171,S801UZ,High,Bassetlaw
+E07000171,S802EQ,High,Bassetlaw
+E07000171,S819AR,High,Bassetlaw
+E07000172,NG93FT,High,Broxtowe
+E07000172,NG95EL,High,Broxtowe
+E07000172,NG96GA,High,Broxtowe
+E07000173,NG35SE,High,Gedling
+E07000173,NG41RR,High,Gedling
+E07000173,NG44JF,High,Gedling
+E07000174,NG184JZ,High,Mansfield
+E07000174,NG200BU,High,Mansfield
+E07000174,NG200DL,High,Mansfield
+E07000175,NG229FR,High,Newark and Sherwood
+E07000175,NG241TJ,High,Newark and Sherwood
+E07000175,NG250XJ,High,Newark and Sherwood
+E07000176,LE125NP,High,Rushcliffe
+E07000176,LE126XX,High,Rushcliffe
+E07000176,NG138BF,High,Rushcliffe
+E07000177,OX160LZ,Medium,Cherwell
+E07000177,OX252NN,Medium,Cherwell
+E07000177,OX279AN,Medium,Cherwell
+E07000178,OX11BX,Medium,Oxford
+E07000178,OX14JX,Medium,Oxford
+E07000178,OX42EU,Medium,Oxford
+E07000179,OX117QH,Medium,South Oxfordshire
+E07000179,OX495EX,Medium,South Oxfordshire
+E07000179,OX92LT,Medium,South Oxfordshire
+E07000180,OX128PD,Medium,Vale of White Horse
+E07000180,OX143PY,Medium,Vale of White Horse
+E07000180,OX143TB,Medium,Vale of White Horse
+E07000181,OX181LS,Medium,West Oxfordshire
+E07000181,OX201BH,Medium,West Oxfordshire
+E07000181,OX296TL,Medium,West Oxfordshire
+E07000187,BA51FL,Medium,Mendip
+E07000187,BA69PX,Medium,Mendip
+E07000187,BS406EN,Medium,Mendip
+E07000188,BS251QW,Medium,Sedgemoor
+E07000188,BS262TZ,Medium,Sedgemoor
+E07000188,TA82BS,Medium,Sedgemoor
+E07000189,BA100DD,Medium,South Somerset
+E07000189,BA201HW,Medium,South Somerset
+E07000189,TA187DP,Medium,South Somerset
+E07000192,WS116DX,Medium,Cannock Chase
+E07000192,WS119WS,Medium,Cannock Chase
+E07000192,WS120FP,Medium,Cannock Chase
+E07000193,DE139BS,Medium,East Staffordshire
+E07000193,ST145AN,Medium,East Staffordshire
+E07000193,ST148NY,Medium,East Staffordshire
+E07000194,B799LH,Medium,Lichfield
+E07000194,WS138QB,Medium,Lichfield
+E07000194,WS79LA,Medium,Lichfield
+E07000195,ST50SB,Medium,Newcastle-under-Lyme
+E07000195,ST58DS,Medium,Newcastle-under-Lyme
+E07000195,ST59NH,Medium,Newcastle-under-Lyme
+E07000196,WV50EP,Medium,South Staffordshire
+E07000196,WV82EL,Medium,South Staffordshire
+E07000196,WV82EN,Medium,South Staffordshire
+E07000197,ST158RQ,Medium,Stafford
+E07000197,ST163LA,Medium,Stafford
+E07000197,ST216BX,Medium,Stafford
+E07000198,ST102LB,Medium,Staffordshire Moorlands
+E07000198,ST137LB,Medium,Staffordshire Moorlands
+E07000198,ST138PS,Medium,Staffordshire Moorlands
+E07000199,B773EQ,Medium,Tamworth
+E07000199,B797SW,Medium,Tamworth
+E07000199,B798EX,Medium,Tamworth
+E07000200,CO111NP,Medium,Babergh
+E07000200,IP83PP,Medium,Babergh
+E07000200,IP91AD,Medium,Babergh
+E07000202,IP15BJ,Medium,Ipswich
+E07000202,IP20XA,Medium,Ipswich
+E07000202,IP30AQ,Medium,Ipswich
+E07000203,IP146BE,Medium,Mid Suffolk
+E07000203,IP146HR,Medium,Mid Suffolk
+E07000203,IP77AR,Medium,Mid Suffolk
+E07000207,KT109EW,High,Elmbridge
+E07000207,KT121LF,High,Elmbridge
+E07000207,KT139QG,High,Elmbridge
+E07000208,KT190HF,Medium,Epsom and Ewell
+E07000208,KT198EX,Medium,Epsom and Ewell
+E07000208,KT47EJ,Medium,Epsom and Ewell
+E07000209,GU11QH,Medium,Guildford
+E07000209,GU11UT,Medium,Guildford
+E07000209,GU12DQ,Medium,Guildford
+E07000210,KT211RN,Medium,Mole Valley
+E07000210,RH43AQ,Medium,Mole Valley
+E07000210,RH54BX,Medium,Mole Valley
+E07000211,RH11DG,Medium,Reigate and Banstead
+E07000211,RH13DX,Medium,Reigate and Banstead
+E07000211,RH20HU,Medium,Reigate and Banstead
+E07000212,KT160QE,Medium,Runnymede
+E07000212,KT168EB,Medium,Runnymede
+E07000212,TW208RG,Medium,Runnymede
+E07000213,TW167TQ,Medium,Spelthorne
+E07000213,TW182EB,Medium,Spelthorne
+E07000213,TW197HQ,Medium,Spelthorne
+E07000214,GU195QR,Medium,Surrey Heath
+E07000214,GU206DP,Medium,Surrey Heath
+E07000214,GU249AG,Medium,Surrey Heath
+E07000215,CR36JJ,Medium,Tandridge
+E07000215,RH76DE,Medium,Tandridge
+E07000215,RH89AG,Medium,Tandridge
+E07000216,GU104EE,Medium,Waverley
+E07000216,GU272EH,Medium,Waverley
+E07000216,GU50DX,Medium,Waverley
+E07000217,GU212AT,Medium,Woking
+E07000217,GU212QE,Medium,Woking
+E07000217,GU229LX,Medium,Woking
+E07000218,B461LH,Medium,North Warwickshire
+E07000218,B769DU,Medium,North Warwickshire
+E07000218,B782JL,Medium,North Warwickshire
+E07000219,CV109LR,Medium,Nuneaton and Bedworth
+E07000219,CV114SR,Medium,Nuneaton and Bedworth
+E07000219,CV129RP,Medium,Nuneaton and Bedworth
+E07000220,CV212US,Medium,Rugby
+E07000220,CV239HS,Medium,Rugby
+E07000220,CV239ND,Medium,Rugby
+E07000221,CV378PH,Medium,Stratford-on-Avon
+E07000221,CV470LE,Medium,Stratford-on-Avon
+E07000221,CV472RA,Medium,Stratford-on-Avon
+E07000222,CV311YD,Medium,Warwick
+E07000222,CV313QS,Medium,Warwick
+E07000222,CV345DE,Medium,Warwick
+E07000223,BN158BP,Medium,Adur
+E07000223,BN435GA,Medium,Adur
+E07000223,BN998DL,Medium,Adur
+E07000224,BN177RF,Medium,Arun
+E07000224,PO212YA,Medium,Arun
+E07000224,PO229QA,Medium,Arun
+E07000225,GU289BH,Medium,Chichester
+E07000225,PO189LT,Medium,Chichester
+E07000225,PO191LX,Medium,Chichester
+E07000226,RH103AT,Medium,Crawley
+E07000226,RH107QG,Medium,Crawley
+E07000226,RH110DD,Medium,Crawley
+E07000227,RH135RH,Medium,Horsham
+E07000227,RH135SR,Medium,Horsham
+E07000227,RH203ER,Medium,Horsham
+E07000228,BN68AG,Medium,Mid Sussex
+E07000228,RH158AB,Medium,Mid Sussex
+E07000228,RH163RN,Medium,Mid Sussex
+E07000229,BN113GB,Medium,Worthing
+E07000229,BN131QP,Medium,Worthing
+E07000229,BN148BH,Medium,Worthing
+E07000234,B618ED,Medium,Bromsgrove
+E07000234,B618TB,Medium,Bromsgrove
+E07000234,DY99TX,Medium,Bromsgrove
+E07000235,WR141AE,Medium,Malvern Hills
+E07000235,WR149SL,Medium,Malvern Hills
+E07000235,WR66XH,Medium,Malvern Hills
+E07000236,B976JZ,Medium,Redditch
+E07000236,B987QS,Medium,Redditch
+E07000236,B988DE,Medium,Redditch
+E07000237,WR26DS,Medium,Worcester
+E07000237,WR38TR,Medium,Worcester
+E07000237,WR49UN,Medium,Worcester
+E07000238,WR117GQ,Medium,Wychavon
+E07000238,WR90DW,Medium,Wychavon
+E07000238,WR98DU,Medium,Wychavon
+E07000239,DY117EX,Medium,Wyre Forest
+E07000239,DY122HG,Medium,Wyre Forest
+E07000239,DY149RE,Medium,Wyre Forest
+E07000240,AL13ST,Medium,St Albans
+E07000240,AL35TL,Medium,St Albans
+E07000240,AL37BD,Medium,St Albans
+E07000241,AL73LR,Medium,Welwyn Hatfield
+E07000241,AL86LD,Medium,Welwyn Hatfield
+E07000241,EN64RW,Medium,Welwyn Hatfield
+E07000242,SG138NS,Medium,East Hertfordshire
+E07000242,SG141EZ,Medium,East Hertfordshire
+E07000242,SG143RX,Medium,East Hertfordshire
+E07000243,SG11DD,Medium,Stevenage
+E07000243,SG14FY,Medium,Stevenage
+E07000243,SG29UP,Medium,Stevenage
+E07000244,IP139PY,Medium,East Suffolk
+E07000244,IP190EA,Medium,East Suffolk
+E07000244,NR325DE,Medium,East Suffolk
+E07000245,CO108QG,Medium,West Suffolk
+E07000245,IP294RX,Medium,West Suffolk
+E07000245,IP339ZZ,Medium,West Suffolk
+E07000246,TA245DW,Medium,Somerset West and Taunton
+E07000246,TA248DR,Medium,Somerset West and Taunton
+E07000246,TA41PX,Medium,Somerset West and Taunton
+E08000001,BL32AX,Very High,Bolton
+E08000001,BL34XG,Very High,Bolton
+E08000001,BL49HS,Very High,Bolton
+E08000002,BL81TU,Very High,Bury
+E08000002,BL96WD,Very High,Bury
+E08000002,M262HF,Very High,Bury
+E08000003,M125BA,Very High,Manchester
+E08000003,M206EN,Very High,Manchester
+E08000003,M403SZ,Very High,Manchester
+E08000004,M359JH,Very High,Oldham
+E08000004,M359WD,Very High,Oldham
+E08000004,OL26SG,Very High,Oldham
+E08000005,M245LQ,Very High,Rochdale
+E08000005,M246DP,Very High,Rochdale
+E08000005,OL169JY,Very High,Rochdale
+E08000006,M274UN,Very High,Salford
+E08000006,M308JP,Very High,Salford
+E08000006,M445UB,Very High,Salford
+E08000007,SK39LR,Very High,Stockport
+E08000007,SK83GY,Very High,Stockport
+E08000007,SK84BU,Very High,Stockport
+E08000008,M345RN,Very High,Tameside
+E08000008,M347NJ,Very High,Tameside
+E08000008,OL68NS,Very High,Tameside
+E08000009,M178RH,Very High,Trafford
+E08000009,WA141JQ,Very High,Trafford
+E08000009,WA157YF,Very High,Trafford
+E08000010,WN13HL,Very High,Wigan
+E08000010,WN68PQ,Very High,Wigan
+E08000010,WN75JU,Very High,Wigan
+E08000011,L326RN,Very High,Knowsley
+E08000011,L363XD,Very High,Knowsley
+E08000011,L366FJ,Very High,Knowsley
+E08000012,L44QU,Very High,Liverpool
+E08000012,L62BZ,Very High,Liverpool
+E08000012,L98BE,Very High,Liverpool
+E08000013,WA103TD,Very High,St. Helens
+E08000013,WA119QN,Very High,St. Helens
+E08000013,WA93FB,Very High,St. Helens
+E08000014,L214LR,Very High,Sefton
+E08000014,L217PD,Very High,Sefton
+E08000014,L373NF,Very High,Sefton
+E08000015,CH423UR,Very High,Wirral
+E08000015,CH496LE,Very High,Wirral
+E08000015,CH624UW,Very High,Wirral
+E08000016,S705UU,Very High,Barnsley
+E08000016,S730EE,Very High,Barnsley
+E08000016,S748EY,Very High,Barnsley
+E08000017,DN31AU,Very High,Doncaster
+E08000017,DN68HD,Very High,Doncaster
+E08000017,DN74ET,Very High,Doncaster
+E08000018,S264ST,Very High,Rotherham
+E08000018,S613JZ,Very High,Rotherham
+E08000018,S663QA,Very High,Rotherham
+E08000019,S102TQ,Very High,Sheffield
+E08000019,S14DJ,Very High,Sheffield
+E08000019,S173QY,Very High,Sheffield
+E08000021,NE51EJ,High,Newcastle upon Tyne
+E08000021,NE51HS,High,Newcastle upon Tyne
+E08000021,NE51QW,High,Newcastle upon Tyne
+E08000022,NE136AJ,High,North Tyneside
+E08000022,NE258JS,High,North Tyneside
+E08000022,NE279SE,High,North Tyneside
+E08000023,NE323HQ,High,South Tyneside
+E08000023,NE329BS,High,South Tyneside
+E08000023,NE346AH,High,South Tyneside
+E08000024,SR27UQ,High,Sunderland
+E08000024,SR59TQ,High,Sunderland
+E08000024,SR69LZ,High,Sunderland
+E08000025,B13AG,High,Birmingham
+E08000025,B191BL,High,Birmingham
+E08000025,B67FE,High,Birmingham
+E08000026,CV32EL,High,Coventry
+E08000026,CV56UN,High,Coventry
+E08000026,CV67GE,High,Coventry
+E08000027,B628AT,Medium,Dudley
+E08000027,DY81XW,Medium,Dudley
+E08000027,DY83QZ,Medium,Dudley
+E08000028,B437AE,High,Sandwell
+E08000028,B658QA,High,Sandwell
+E08000028,B712EF,High,Sandwell
+E08000029,B377TS,High,Solihull
+E08000029,B401PQ,High,Solihull
+E08000029,B920ES,High,Solihull
+E08000030,B743PN,High,Walsall
+E08000030,WS32AX,High,Walsall
+E08000030,WS34AZ,High,Walsall
+E08000031,WV146AW,High,Wolverhampton
+E08000031,WV46BT,High,Wolverhampton
+E08000031,WV60JJ,High,Wolverhampton
+E08000032,BD131DQ,High,Bradford
+E08000032,BD184HU,High,Bradford
+E08000032,BD23HB,High,Bradford
+E08000033,HX14RG,High,Calderdale
+E08000033,HX15DN,High,Calderdale
+E08000033,HX27HU,High,Calderdale
+E08000034,BD112JR,High,Kirklees
+E08000034,HD92DR,High,Kirklees
+E08000034,WF134HZ,High,Kirklees
+E08000035,LS102EJ,High,Leeds
+E08000035,LS158BJ,High,Leeds
+E08000036,WF109EA,High,Wakefield
+E08000036,WF42DJ,High,Wakefield
+E08000036,WF50LS,High,Wakefield
+E08000037,NE108EF,High,Gateshead
+E08000037,NE165HB,High,Gateshead
+E08000037,NE84SN,High,Gateshead
+E09000001,EC1A9DS,High,City of London
+E09000001,EC3A1AT,High,City of London
+E09000001,EC4Y8JJ,High,City of London
+E09000002,RM109SX,High,Barking and Dagenham
+E09000002,RM82RJ,High,Barking and Dagenham
+E09000002,RM95TT,High,Barking and Dagenham
+E09000003,EN51ES,High,Barnet
+E09000003,N200JJ,High,Barnet
+E09000003,NW43XR,High,Barnet
+E09000004,DA51JE,High,Bexley
+E09000004,DA75RE,High,Bexley
+E09000004,DA89HH,High,Bexley
+E09000005,NW66PX,High,Brent
+E09000005,NW67FB,High,Brent
+E09000005,NW99LL,High,Brent
+E09000006,BR27BH,High,Bromley
+E09000006,BR34TD,High,Bromley
+E09000006,BR66HH,High,Bromley
+E09000007,NW33XX,High,Camden
+E09000007,NW52QX,High,Camden
+E09000007,W1T4SF,High,Camden
+E09000008,CR03SW,High,Croydon
+E09000008,SE255HH,High,Croydon
+E09000008,SW164RD,High,Croydon
+E09000009,UB60PY,High,Ealing
+E09000009,UB68HF,High,Ealing
+E09000009,W38QY,High,Ealing
+E09000010,EN36GR,High,Enfield
+E09000010,N182JB,High,Enfield
+E09000010,N90HB,High,Enfield
+E09000011,SE100XL,High,Greenwich
+E09000011,SE185NG,High,Greenwich
+E09000011,SE92EH,High,Greenwich
+E09000012,EC2A4AD,High,Hackney
+E09000012,N17LT,High,Hackney
+E09000012,N17ND,High,Hackney
+E09000013,SW64PY,High,Hammersmith and Fulham
+E09000013,W129RP,High,Hammersmith and Fulham
+E09000013,W60DE,High,Hammersmith and Fulham
+E09000014,N178BY,High,Haringey
+E09000014,N179PB,High,Haringey
+E09000014,N89RT,High,Haringey
+E09000015,HA11JT,High,Harrow
+E09000015,HA53PE,High,Harrow
+E09000015,HA54HE,High,Harrow
+E09000016,RM39RS,High,Havering
+E09000016,RM52HA,High,Havering
+E09000016,RM52SR,High,Havering
+E09000017,HA47YW,High,Hillingdon
+E09000017,UB100BL,High,Hillingdon
+E09000017,UB89FT,High,Hillingdon
+E09000018,TW137FA,High,Hounslow
+E09000018,TW45AZ,High,Hounslow
+E09000018,TW75LD,High,Hounslow
+E09000019,N12HR,High,Islington
+E09000019,N195UH,High,Islington
+E09000019,N78LU,High,Islington
+E09000020,SW32SQ,High,Kensington and Chelsea
+E09000020,SW35UZ,High,Kensington and Chelsea
+E09000020,W113NB,High,Kensington and Chelsea
+E09000021,KT27PS,High,Kingston upon Thames
+E09000021,KT33AZ,High,Kingston upon Thames
+E09000021,KT35AF,High,Kingston upon Thames
+E09000022,SE114UZ,High,Lambeth
+E09000022,SE279BQ,High,Lambeth
+E09000022,SW47UX,High,Lambeth
+E09000023,SE129NH,High,Lewisham
+E09000023,SE41PJ,High,Lewisham
+E09000023,SE61ST,High,Lewisham
+E09000024,CR42PL,High,Merton
+E09000024,CR43GN,High,Merton
+E09000024,SW193AX,High,Merton
+E09000025,E125DU,High,Newham
+E09000025,E154NW,High,Newham
+E09000025,E65QY,High,Newham
+E09000026,IG12TU,High,Redbridge
+E09000026,IG27SR,High,Redbridge
+E09000026,IG87QR,High,Redbridge
+E09000027,KT89AS,High,Richmond upon Thames
+E09000027,TW122UH,High,Richmond upon Thames
+E09000027,TW136HF,High,Richmond upon Thames
+E09000028,SE12UT,High,Southwark
+E09000028,SE154RJ,High,Southwark
+E09000028,SE164PH,High,Southwark
+E09000029,KT48EQ,High,Sutton
+E09000029,SM67AS,High,Sutton
+E09000029,SM67JZ,High,Sutton
+E09000030,E16PL,High,Tower Hamlets
+E09000030,E32HJ,High,Tower Hamlets
+E09000030,E33PF,High,Tower Hamlets
+E09000031,E114BY,High,Waltham Forest
+E09000031,E173JJ,High,Waltham Forest
+E09000031,E177AH,High,Waltham Forest
+E09000032,SW114HH,High,Wandsworth
+E09000032,SW184TF,High,Wandsworth
+E09000032,SW1P1RB,High,Wandsworth
+E09000033,W111AH,High,Westminster
+E09000033,W1U1PY,High,Westminster
+E09000033,W92JD,High,Westminster
