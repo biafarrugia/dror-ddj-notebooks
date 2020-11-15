@@ -27,23 +27,38 @@ E06000009,FY13RQ,Very High,Blackpool
 E06000009,FY16BS,Very High,Blackpool
 E06000009,FY20XR,Very High,Blackpool
 E06000010,HU51HB,Medium,Kingston upon Hull
+E06000010,HU51HB,Medium.,Kingston upon Hull
 E06000010,HU94TG,Medium,Kingston upon Hull
+E06000010,HU94TG,Medium.,Kingston upon Hull
 E06000010,HU95TW,Medium,Kingston upon Hull
+E06000010,HU95TW,Medium.,Kingston upon Hull
 E06000011,DN145RR,Medium,East Riding of Yorkshire
+E06000011,DN145RR,Medium.,East Riding of Yorkshire
 E06000011,HU203XE,Medium,East Riding of Yorkshire
+E06000011,HU203XE,Medium.,East Riding of Yorkshire
 E06000011,YO256UB,Medium,East Riding of Yorkshire
+E06000011,YO256UB,Medium.,East Riding of Yorkshire
 E06000012,DN320PP,Medium,North East Lincolnshire
+E06000012,DN320PP,Medium.,North East Lincolnshire
 E06000012,DN370SB,Medium,North East Lincolnshire
+E06000012,DN370SB,Medium.,North East Lincolnshire
 E06000012,DN401PU,Medium,North East Lincolnshire
+E06000012,DN401PU,Medium.,North East Lincolnshire
 E06000013,DN161TS,Medium,North Lincolnshire
+E06000013,DN161TS,Medium.,North Lincolnshire
 E06000013,DN172PT,Medium,North Lincolnshire
+E06000013,DN172PT,Medium.,North Lincolnshire
 E06000013,DN208SQ,Medium,North Lincolnshire
+E06000013,DN208SQ,Medium.,North Lincolnshire
 E06000014,YO104JW,High,York
 E06000014,YO233UY,High,York
 E06000014,YO307BW,High,York
 E06000015,DE231PR,Medium,Derby
+E06000015,DE231PR,Medium.,Derby
 E06000015,DE236HD,Medium,Derby
+E06000015,DE236HD,Medium.,Derby
 E06000015,DE236TE,Medium,Derby
+E06000015,DE236TE,Medium.,Derby
 E06000016,LE31NA,High,Leicester
 E06000016,LE40DQ,High,Leicester
 E06000016,LE45DH,High,Leicester
@@ -51,14 +66,23 @@ E06000017,LE156SW,Medium,Rutland
 E06000017,LE157WL,Medium,Rutland
 E06000017,PE94JS,Medium,Rutland
 E06000018,NG16AE,High,Nottingham
+E06000018,NG16AE,High.,Nottingham
+E06000018,NG16AE,Very High,Nottingham
 E06000018,NG24QD,High,Nottingham
+E06000018,NG24QD,High.,Nottingham
+E06000018,NG24QD,Very High,Nottingham
 E06000018,NG60JQ,High,Nottingham
+E06000018,NG60JQ,High.,Nottingham
+E06000018,NG60JQ,Very High,Nottingham
 E06000019,HR68PW,Medium,Herefordshire
 E06000019,HR82GL,Medium,Herefordshire
 E06000019,SY70ED,Medium,Herefordshire
 E06000020,TF108BS,Medium,Telford and Wrekin
+E06000020,TF108BS,Medium.,Telford and Wrekin
 E06000020,TF66PL,Medium,Telford and Wrekin
+E06000020,TF66PL,Medium.,Telford and Wrekin
 E06000020,TF66QF,Medium,Telford and Wrekin
+E06000020,TF66QF,Medium.,Telford and Wrekin
 E06000021,ST27QB,High,Stoke-on-Trent
 E06000021,ST41EA,High,Stoke-on-Trent
 E06000021,ST46PU,High,Stoke-on-Trent
@@ -87,8 +111,11 @@ E06000031,PE12SJ,Medium,Peterborough
 E06000031,PE15BU,Medium,Peterborough
 E06000031,PE29DW,Medium,Peterborough
 E06000032,LU12EE,Medium,Luton
+E06000032,LU12EE,Medium.,Luton
 E06000032,LU13QX,Medium,Luton
+E06000032,LU13QX,Medium.,Luton
 E06000032,LU40XN,Medium,Luton
+E06000032,LU40XN,Medium.,Luton
 E06000033,SS11HP,Medium,Southend-on-Sea
 E06000033,SS13AS,Medium,Southend-on-Sea
 E06000033,SS996GQ,Medium,Southend-on-Sea
@@ -192,8 +219,11 @@ E07000027,LA142BP,High,Barrow-in-Furness
 E07000027,LA144AU,High,Barrow-in-Furness
 E07000027,LA145HU,High,Barrow-in-Furness
 E07000028,CA19EG,Medium,Carlisle
+E07000028,CA19EG,Medium.,Carlisle
 E07000028,CA30HL,Medium,Carlisle
+E07000028,CA30HL,Medium.,Carlisle
 E07000028,CA38QZ,Medium,Carlisle
+E07000028,CA38QZ,Medium.,Carlisle
 E07000029,CA201EJ,Medium,Copeland
 E07000029,CA222PW,Medium,Copeland
 E07000029,CA288NH,Medium,Copeland
@@ -204,17 +234,26 @@ E07000031,LA233EW,Medium,South Lakeland
 E07000031,LA50AG,Medium,South Lakeland
 E07000031,LA94RU,Medium,South Lakeland
 E07000032,DE562LH,Medium,Amber Valley
+E07000032,DE562LH,Medium.,Amber Valley
 E07000032,DE564GF,Medium,Amber Valley
+E07000032,DE564GF,Medium.,Amber Valley
 E07000032,DE59TW,Medium,Amber Valley
+E07000032,DE59TW,Medium.,Amber Valley
 E07000033,DE553AR,Medium,Bolsover
+E07000033,DE553AR,Medium.,Bolsover
 E07000033,S434PA,Medium,Bolsover
+E07000033,S434PA,Medium.,Bolsover
 E07000033,S445NR,Medium,Bolsover
+E07000033,S445NR,Medium.,Bolsover
 E07000034,S403AT,High,Chesterfield
 E07000034,S417EG,High,Chesterfield
 E07000034,S418RP,High,Chesterfield
 E07000035,DE61EJ,Medium,Derbyshire Dales
+E07000035,DE61EJ,Medium.,Derbyshire Dales
 E07000035,SK178RG,Medium,Derbyshire Dales
+E07000035,SK178RG,Medium.,Derbyshire Dales
 E07000035,SK179TQ,Medium,Derbyshire Dales
+E07000035,SK179TQ,Medium.,Derbyshire Dales
 E07000036,DE75BD,High,Erewash
 E07000036,DE75TS,High,Erewash
 E07000036,NG105LE,High,Erewash
@@ -225,8 +264,11 @@ E07000038,S188PE,High,North East Derbyshire
 E07000038,S211HF,High,North East Derbyshire
 E07000038,S425RJ,High,North East Derbyshire
 E07000039,DE111GA,Medium,South Derbyshire
+E07000039,DE111GA,Medium.,South Derbyshire
 E07000039,DE150RQ,Medium,South Derbyshire
+E07000039,DE150RQ,Medium.,South Derbyshire
 E07000039,DE656QN,Medium,South Derbyshire
+E07000039,DE656QN,Medium.,South Derbyshire
 E07000040,EX109SQ,Medium,East Devon
 E07000040,EX13ZF,Medium,East Devon
 E07000040,EX83NU,Medium,East Devon
@@ -447,8 +489,11 @@ E07000129,LE85PL,Medium,Blaby
 E07000129,LE85UG,Medium,Blaby
 E07000129,LE92DG,Medium,Blaby
 E07000130,LE111FT,Medium,Charnwood
+E07000130,LE111FT,Medium.,Charnwood
 E07000130,LE112JZ,Medium,Charnwood
+E07000130,LE112JZ,Medium.,Charnwood
 E07000130,LE72AH,Medium,Charnwood
+E07000130,LE72AH,Medium.,Charnwood
 E07000131,LE167FS,Medium,Harborough
 E07000131,LE175DZ,Medium,Harborough
 E07000131,LE88TR,Medium,Harborough
@@ -549,32 +594,77 @@ E07000169,DN149PF,Medium,Selby
 E07000169,YO85JJ,Medium,Selby
 E07000169,YO89QL,Medium,Selby
 E07000170,NG158GL,High,Ashfield
+E07000170,NG158GL,High.,Ashfield
+E07000170,NG158GL,Very High,Ashfield
 E07000170,NG172DF,High,Ashfield
+E07000170,NG172DF,High.,Ashfield
+E07000170,NG172DF,Very High,Ashfield
 E07000170,NG177BB,High,Ashfield
+E07000170,NG177BB,High.,Ashfield
+E07000170,NG177BB,Very High,Ashfield
 E07000171,DN106BW,High,Bassetlaw
+E07000171,DN106BW,High.,Bassetlaw
+E07000171,DN106BW,Very High,Bassetlaw
 E07000171,DN220RB,High,Bassetlaw
+E07000171,DN220RB,High.,Bassetlaw
+E07000171,DN220RB,Very High,Bassetlaw
 E07000171,S803QP,High,Bassetlaw
+E07000171,S803QP,High.,Bassetlaw
+E07000171,S803QP,Very High,Bassetlaw
 E07000172,NG161AE,High,Broxtowe
+E07000172,NG161AE,High.,Broxtowe
+E07000172,NG161AE,Very High,Broxtowe
 E07000172,NG95BY,High,Broxtowe
+E07000172,NG95BY,High.,Broxtowe
+E07000172,NG95BY,Very High,Broxtowe
 E07000172,NG96AH,High,Broxtowe
+E07000172,NG96AH,High.,Broxtowe
+E07000172,NG96AH,Very High,Broxtowe
 E07000173,NG145AR,High,Gedling
+E07000173,NG145AR,High.,Gedling
+E07000173,NG145AR,Very High,Gedling
 E07000173,NG35QW,High,Gedling
+E07000173,NG35QW,High.,Gedling
+E07000173,NG35QW,Very High,Gedling
 E07000173,NG36JY,High,Gedling
+E07000173,NG36JY,High.,Gedling
+E07000173,NG36JY,Very High,Gedling
 E07000174,NG196EN,High,Mansfield
+E07000174,NG196EN,High.,Mansfield
+E07000174,NG196EN,Very High,Mansfield
 E07000174,NG198JA,High,Mansfield
+E07000174,NG198JA,High.,Mansfield
+E07000174,NG198JA,Very High,Mansfield
 E07000174,NG200NP,High,Mansfield
+E07000174,NG200NP,High.,Mansfield
+E07000174,NG200NP,Very High,Mansfield
 E07000175,NG147HE,High,Newark and Sherwood
+E07000175,NG147HE,High.,Newark and Sherwood
+E07000175,NG147HE,Very High,Newark and Sherwood
 E07000175,NG243DG,High,Newark and Sherwood
+E07000175,NG243DG,High.,Newark and Sherwood
+E07000175,NG243DG,Very High,Newark and Sherwood
 E07000175,NG243LP,High,Newark and Sherwood
+E07000175,NG243LP,High.,Newark and Sherwood
+E07000175,NG243LP,Very High,Newark and Sherwood
 E07000176,LE126JE,High,Rushcliffe
+E07000176,LE126JE,High.,Rushcliffe
+E07000176,LE126JE,Very High,Rushcliffe
 E07000176,NG125FZ,High,Rushcliffe
+E07000176,NG125FZ,High.,Rushcliffe
+E07000176,NG125FZ,Very High,Rushcliffe
 E07000176,NG27ZJ,High,Rushcliffe
+E07000176,NG27ZJ,High.,Rushcliffe
+E07000176,NG27ZJ,Very High,Rushcliffe
 E07000177,OX156PY,Medium,Cherwell
 E07000177,OX165ED,Medium,Cherwell
 E07000177,OX262FH,Medium,Cherwell
 E07000178,OX30DN,Medium,Oxford
+E07000178,OX30DN,Medium.,Oxford
 E07000178,OX38LL,Medium,Oxford
+E07000178,OX38LL,Medium.,Oxford
 E07000178,OX38XN,Medium,Oxford
+E07000178,OX38XN,Medium.,Oxford
 E07000179,OX106RP,Medium,South Oxfordshire
 E07000179,OX331QH,Medium,South Oxfordshire
 E07000179,OX394EN,Medium,South Oxfordshire
@@ -594,29 +684,53 @@ E07000189,BA228WB,Medium,South Somerset
 E07000189,BA80SP,Medium,South Somerset
 E07000189,TA135AF,Medium,South Somerset
 E07000192,WS111HQ,Medium,Cannock Chase
+E07000192,WS111HQ,Medium.,Cannock Chase
 E07000192,WS118EU,Medium,Cannock Chase
+E07000192,WS118EU,Medium.,Cannock Chase
 E07000192,WS152DJ,Medium,Cannock Chase
+E07000192,WS152DJ,Medium.,Cannock Chase
 E07000193,DE142QT,Medium,East Staffordshire
+E07000193,DE142QT,Medium.,East Staffordshire
 E07000193,DE143JN,Medium,East Staffordshire
+E07000193,DE143JN,Medium.,East Staffordshire
 E07000193,ST145NW,Medium,East Staffordshire
+E07000193,ST145NW,Medium.,East Staffordshire
 E07000194,WS136RP,Medium,Lichfield
+E07000194,WS136RP,Medium.,Lichfield
 E07000194,WS138UU,Medium,Lichfield
+E07000194,WS138UU,Medium.,Lichfield
 E07000194,WS154DE,Medium,Lichfield
+E07000194,WS154DE,Medium.,Lichfield
 E07000195,ST51LF,Medium,Newcastle-under-Lyme
+E07000195,ST51LF,Medium.,Newcastle-under-Lyme
 E07000195,ST57LD,Medium,Newcastle-under-Lyme
+E07000195,ST57LD,Medium.,Newcastle-under-Lyme
 E07000195,ST71QY,Medium,Newcastle-under-Lyme
+E07000195,ST71QY,Medium.,Newcastle-under-Lyme
 E07000196,WV107TU,Medium,South Staffordshire
+E07000196,WV107TU,Medium.,South Staffordshire
 E07000196,WV67UL,Medium,South Staffordshire
+E07000196,WV67UL,Medium.,South Staffordshire
 E07000196,WV81AE,Medium,South Staffordshire
+E07000196,WV81AE,Medium.,South Staffordshire
 E07000197,ST150AH,Medium,Stafford
+E07000197,ST150AH,Medium.,Stafford
 E07000197,ST170JJ,Medium,Stafford
+E07000197,ST170JJ,Medium.,Stafford
 E07000197,ST200RW,Medium,Stafford
+E07000197,ST200RW,Medium.,Stafford
 E07000198,ST103AS,Medium,Staffordshire Moorlands
+E07000198,ST103AS,Medium.,Staffordshire Moorlands
 E07000198,ST68RX,Medium,Staffordshire Moorlands
+E07000198,ST68RX,Medium.,Staffordshire Moorlands
 E07000198,ST87LS,Medium,Staffordshire Moorlands
+E07000198,ST87LS,Medium.,Staffordshire Moorlands
 E07000199,B773AX,Medium,Tamworth
+E07000199,B773AX,Medium.,Tamworth
 E07000199,B774EQ,Medium,Tamworth
+E07000199,B774EQ,Medium.,Tamworth
 E07000199,B797JN,Medium,Tamworth
+E07000199,B797JN,Medium.,Tamworth
 E07000200,CO107PJ,Medium,Babergh
 E07000200,CO64PD,Medium,Babergh
 E07000200,IP92PZ,Medium,Babergh
@@ -810,8 +924,11 @@ E08000026,CV57AH,High,Coventry
 E08000026,CV57LX,High,Coventry
 E08000026,CV59HD,High,Coventry
 E08000027,B634HR,Medium,Dudley
+E08000027,B634HR,Medium.,Dudley
 E08000027,DY52EZ,Medium,Dudley
+E08000027,DY52EZ,Medium.,Dudley
 E08000027,DY85HR,Medium,Dudley
+E08000027,DY85HR,Medium.,Dudley
 E08000028,B659RJ,High,Sandwell
 E08000028,B680HR,High,Sandwell
 E08000028,B700JL,High,Sandwell
@@ -824,20 +941,35 @@ E08000031,WV149NQ,High,Wolverhampton
 E08000031,WV14PT,High,Wolverhampton
 E08000031,WV39BS,High,Wolverhampton
 E08000032,BD128DY,High,Bradford
+E08000032,BD128DY,High.,Bradford
 E08000032,BD200DE,High,Bradford
+E08000032,BD200DE,High.,Bradford
 E08000032,BD50TN,High,Bradford
+E08000032,BD50TN,High.,Bradford
 E08000033,HX15RG,High,Calderdale
+E08000033,HX15RG,High.,Calderdale
 E08000033,HX59PS,High,Calderdale
+E08000033,HX59PS,High.,Calderdale
 E08000033,OL146HH,High,Calderdale
+E08000033,OL146HH,High.,Calderdale
 E08000034,HD13HJ,High,Kirklees
+E08000034,HD13HJ,High.,Kirklees
 E08000034,HD21TJ,High,Kirklees
+E08000034,HD21TJ,High.,Kirklees
 E08000034,WF170NT,High,Kirklees
+E08000034,WF170NT,High.,Kirklees
 E08000035,LS150HZ,High,Leeds
+E08000035,LS150HZ,High.,Leeds
 E08000035,LS82QQ,High,Leeds
+E08000035,LS82QQ,High.,Leeds
 E08000035,LS90PH,High,Leeds
+E08000035,LS90PH,High.,Leeds
 E08000036,WF20HU,High,Wakefield
+E08000036,WF20HU,High.,Wakefield
 E08000036,WF58NS,High,Wakefield
+E08000036,WF58NS,High.,Wakefield
 E08000036,WF61UL,High,Wakefield
+E08000036,WF61UL,High.,Wakefield
 E08000037,NE108NB,High,Gateshead
 E08000037,NE163EJ,High,Gateshead
 E08000037,NE97LH,High,Gateshead
