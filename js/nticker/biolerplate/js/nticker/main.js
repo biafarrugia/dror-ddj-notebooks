@@ -7,32 +7,39 @@ function main_loaded() {
 	hdb.init();
 
 	board = $("#board");
-
 	hboard = new HeadingsBoard(board, hdb.getSources());
 
+	ctrl = new BoardController($("#ctrl"), hdb, hboard);
 
-	for (var i = 0 ; i < 4 ; i++ ) {
+
+	for (var i = 0 ; i < 0 ; i++ ) {
 
 		var 	h = hdb.at(i);
 		var		t = hboard.ticker(h.source);
-		var		x = t.width() * 0.75;
-		var		y = 0;
 
 		var hs = new HeadingSprite(h);
-		t.display(hs, x, y);
+		t.display(hs);
 
 	}
 
-	/*
+	ctrl.doTick();
+}
 
-	hs2 = new HeadingSprite(hdb.at(1));
-	hs2.displayIn(board, 200, 200)
 
-	window.setTimeout(function() {
-
-		hs1.animateTo(board.width()/2, board.height()/2);
-		hs2.animateTo(board.width()*0.25, board.height()*.1);
-	}, 1000);
-	*/
-
+// https://stackoverflow.com/questions/22697936/binary-search-in-javascript
+function binarySearch(ar, el, compare_fn) {
+    var m = 0;
+    var n = ar.length - 1;
+    while (m <= n) {
+        var k = (n + m) >> 1;
+        var cmp = compare_fn(el, ar[k]);
+        if (cmp > 0) {
+            m = k + 1;
+        } else if(cmp < 0) {
+            n = k - 1;
+        } else {
+            return k;
+        }
+    }
+    return -m - 1;
 }

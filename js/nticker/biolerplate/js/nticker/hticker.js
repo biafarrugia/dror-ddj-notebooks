@@ -28,8 +28,10 @@ class HeadingsTicker {
 		return this.div.width();
 	}
 
-	display(hs, x, y) {
-		hs.displayIn(this.div, x, y);
+	display(hs) {
+
+		var		x = this.div.width() * Math.random();		
+		hs.displayIn(this.div, x, 0);
 	}
 
 }

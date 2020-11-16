@@ -26,11 +26,13 @@ class HeadingsDb {
 
 		}
 
-		this.data.sort(function(a, b) {
-			return a.timestamp - b.timestamp;
-		});
+		this.data.sort(HeadingsDb.hcompare);
 
 		console.log(this.sources);
+	}
+
+	static hcompare(a, b) {
+		return a.timestamp - b.timestamp;
 	}
 
 	// get a record by index
@@ -40,6 +42,19 @@ class HeadingsDb {
 
 	getSources() {
 		return this.sources;
+	}
+
+	getHeadlinesBetween(from, to) {
+
+		var		fromIndex = binarySearch(this.data, {timestamp: from}, HeadingsDb.hcompare);
+		if ( fromIndex < 0 )
+			fromIndex = -fromIndex - 1;
+
+		var 	toIndex = binarySearch(this.data, {timestamp: to}, HeadingsDb.hcompare);
+		if ( toIndex < 0 )
+			toIndex = -toIndex;
+
+		return this.data.slice(fromIndex, toIndex);
 	}
 
 }
