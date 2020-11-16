@@ -8,7 +8,10 @@ class HeadingSprite {
 	}
 
 	// display inside a div
-	displayIn(parent, x, y) {
+	displayIn(parent, x, y, height) {
+
+		this.x = x;
+		this.y = y;
 
 		// build div
 		this.div = $("<div/>");
@@ -18,8 +21,8 @@ class HeadingSprite {
 		this.div.css("left", x + 'px');
 		this.div.css("top", y + 'px');
 		this.div.css("width", '300px');
-		this.div.css("height", '43px');
-		this.div.css("background", "#A0A0A0");
+		this.div.css("height", height + 'px');
+		this.div.css("background", getRandomColor(2) + "C0C0");
 		this.div.css("overflow", "hidden");
 
 
@@ -29,10 +32,12 @@ class HeadingSprite {
 
 	// anomte to a new position
 	animateTo(x, y) {
+		this.x = x;
+		this.y = y;
 		this.div.animate({
 			"left": x + 'px',
 			"top": y + 'px'
-		}, 250);
+		}, 100);
 	}
 
 }

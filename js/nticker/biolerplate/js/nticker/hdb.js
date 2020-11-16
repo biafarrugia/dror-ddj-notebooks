@@ -3,8 +3,8 @@ class HeadingsDb {
 	// constructor
 	constructor(data) {
 
-		this.minTimestamp = new Date(8640000000000000);
-		this.maxTimestamp = new Date(-8640000000000000);
+		this.minTimestamp = 8640000000000000;
+		this.maxTimestamp = -8640000000000000;
 		this.sources = new Set();
 		this.data = data;
 	}
@@ -13,7 +13,7 @@ class HeadingsDb {
 
 		for ( var h of this.data) {
 
-			h.timestamp = new Date(h._timestamp.date);
+			h.timestamp = (new Date(h._timestamp.date)).getTime();
 			delete h._timestamp;
 			h.source = h._source.name;
 			delete h._source;
@@ -52,7 +52,7 @@ class HeadingsDb {
 
 		var 	toIndex = binarySearch(this.data, {timestamp: to}, HeadingsDb.hcompare);
 		if ( toIndex < 0 )
-			toIndex = -toIndex;
+			toIndex = -toIndex - 1;
 
 		return this.data.slice(fromIndex, toIndex);
 	}

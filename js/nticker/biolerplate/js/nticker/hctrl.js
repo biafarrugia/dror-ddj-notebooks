@@ -6,13 +6,15 @@ class BoardController {
 		this.hdb = hdb;
 		this.hboard = hboard;
 
-		this.min = hdb.minTimestamp;
-		this.max = hdb.maxTimestamp;
-		this.curr = this.min;
-		this.curr.setSeconds(0);
-		this.stepMsec = 5*60*1000;
-		this.tickMsec = 250;
-		this.windowSec = 60*60*1000;
+		this.min = hdb.minTimestamp;			// min time in database
+		this.max = hdb.maxTimestamp;			// max time in datebase
+
+		this.stepMsec = 10*60*1000;				// auto animation time to increment  (5m)
+		this.tickMsec = 1000;					// how ofter to animate (0.25s)
+		this.windowSec = 60*60*1000;			// how much is visible in the window (1h)
+
+		this.curr = this.min - this.tickMsec;	// the current time pointer
+		this.curr -= (this.curr % 60000);
 
 		var 	text = this.curr.toString();	
 		var		width = 200;
@@ -35,31 +37,41 @@ class BoardController {
 	}
 
 	updateText() {
-		this.div.text(this.curr.toISOString());
+		this.div.text((new Date(this.curr)).toISOString());
 	}
 
 	updateCurr() {
 		this.prevCurr = this.curr;
-		this.curr = new Date(this.curr.getTime() + this.stepMsec);
+		this.curr = this.curr + this.stepMsec;
 		this.updateText();
 		this.updateHeadlines();
 	}
 
 	updateHeadlines() {
-		console.log(this.prevCurr, this.curr);
+
+		// get new lines in
 		var		headlines = hdb.getHeadlinesBetween(this.prevCurr, this.curr);
-		console.log(headlines);
 		for ( var h of headlines ) {
 			var		t = this.hboard.ticker(h.source);
 			var 	hs = new HeadingSprite(h);
-			t.display(hs);
+			t.display(hs, -0.25);
 		}
-		console.log()
+
+		// update existing lines
+		var that = this;
+		this.hboard.animateTickers(function(h) {
+			return that.calcXDepth(h);
+		});
 	}
 
 	doTick() {
 		this.updateCurr();
 		window.setTimeout(this.doTick.bind(this), this.tickMsec);
+	}
+
+	calcXDepth(h) {
+
+		return (this.curr - h.timestamp) / this.windowSec;
 	}
 
 }

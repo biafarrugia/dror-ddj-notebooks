@@ -43,3 +43,13 @@ function binarySearch(ar, el, compare_fn) {
     }
     return -m - 1;
 }
+
+// https://stackoverflow.com/questions/1484506/random-color-generator
+function getRandomColor(digits) {
+  var letters = '0123456789ABCDEF';
+  var color = '#';
+  for (var i = 0; i < digits; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
