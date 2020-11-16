@@ -3,13 +3,20 @@ class HeadingsBoard {
 	// constructor
 	constructor(parent, sources) {
 
-		// esablish dimensions
-		var tickerHeight = parent.height() / sources.size;
+		this.multiTicker = false;
 
-		// create tickers
+		// inits
 		this.tickersBySource = new Object();
 		this.tickers = [];
 		var y = 0;
+		var tickerHeight = parent.height();
+
+		if ( this.multiTicker ) 
+			tickerHeight /= sources.size;
+		else
+			sources = ["All"];
+
+		// create tickers
 		for ( var s of sources ) {
 
 			var t = new HeadingsTicker(parent, y, tickerHeight, s);
@@ -22,7 +29,10 @@ class HeadingsBoard {
 
 	// get ticker for a source
 	ticker(s) {
-		return this.tickersBySource[s];
+		if ( this.multiTicker )
+			return this.tickersBySource[s];
+		else
+			return this.tickers[0];
 	}
 
 	// animate all tickers

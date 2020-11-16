@@ -1,4 +1,66 @@
 .hticker {
-	border-style: dashed;
-	border-width: thin;
+	position: absolute;
+	overflow: hidden;
+}
+
+.hsprite {
+	position: absolute;
+	overflow: hidden;
+	color: white;
+}
+
+.hsprite span {
+	padding: 0px;
+}
+
+.hc1 {
+	background: #CD001F;
+	padding: 0px;
+}
+
+.hc2 {
+	background: #1188CF;
+	padding: 0px;
+}
+
+.hc3 {
+	font-weight: bold;
+  	border-bottom: 3px white solid;
+}
+
+.source {
+	background: grey;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.clock {
+    color: white;
+    font-size: 45px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    background: #505050;
+    text-align: center;
+	letter-spacing: 7px;
+}
+
+.title {
+    color: white;
+    font-size: 45px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    background: #505050;
+    text-align: center;
+	letter-spacing: 7px;
+}
+
+.board_right {
+	color:white;
+  	border-left: 1px grey dashed;	
+	position:absolute;
+	right: 0;
+	width: 25%;
+	height: 500px;
+
+
 }

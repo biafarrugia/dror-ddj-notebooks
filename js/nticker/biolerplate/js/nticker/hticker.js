@@ -8,21 +8,18 @@ class HeadingsTicker {
 		this.landingZone = 0.75;				// how much width is dedicated on the heading landing zone
 		this.sprites = [];						// sprites currently displayed
 		this.yRota = 0;							// a rota for the y position
-		this.yRotaSize = 2;						// number of positions on the rota
-		this.yRotaTick = height / 2;			// size of each rota tick
-		this.xScaleExp = true;					// scale x scale exponentially
+		this.yRotaSize = Math.round(height / 24);	// number of positions on the rota
+		this.yRotaTick = height / this.yRotaSize; // size of each rota tick
+		this.xScaleExp = false;					// scale x scale exponentially
 
 		// build div
 		this.div = $("<div/>");
 		this.div.append(source);
 		this.div.prop("title", source)
-		this.div.css("position", "absolute");
 		this.div.css("left", '0px');
 		this.div.css("top", y + 'px');
 		this.div.css("width", parent.width() + 'px');
 		this.div.css("height", height + 'px');
-		this.div.css("background", "#A0C00C");
-		this.div.css("overflow", "hidden");
 		this.div.addClass("hticker");
 
 
