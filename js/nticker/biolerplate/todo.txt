@@ -1,0 +1,17 @@
+[ ] Author initials, profile image, link to twitter
+[ ] User to enter keywords to highlight in to text
+[ ] Sentiment analysis, bolden text with high sentiment (neg/pos)
+[ ] world clocks
+[ ] reporter is not on the ground - multiple feeds
+[ ] secondary feed of states calling the elections
+[ ] score board
+[ ] smaller title
+[ ] background graphs!
+[ ] accumulators
+[ ] counters
+[ ] word frequency table
+[ ] tweet a headline
+[ ] animation function - make it linear so movement will be smooth
+[ ] live feeds from the edges of society and the network
+[ ] make a poster?
+

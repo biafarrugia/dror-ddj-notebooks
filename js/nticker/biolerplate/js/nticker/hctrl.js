@@ -44,6 +44,11 @@ class BoardController {
 
 		// append to parent div
 		parent.append(this.div);
+
+		// initialize ngram frequencies
+		this.ngramFreq = new NgramFreq(1);
+		this.ngramFreq2 = new NgramFreq(2);
+		this.ngramFreq3 = new NgramFreq(3);
 	}
 
 	updateText() {
@@ -63,9 +68,17 @@ class BoardController {
 		// get new lines in
 		var		headlines = hdb.getHeadlinesBetween(this.prevCurr, this.curr);
 		for ( var h of headlines ) {
+
+			// add sprites
 			var		t = this.hboard.ticker(h.source);
 			var 	hs = new HeadingSprite(h);
 			t.display(hs, -0.25);
+
+			// add to frequency accomulator
+			var		toks = NgramFreq.split(h.title);
+			this.ngramFreq.add(toks);
+			this.ngramFreq2.add(toks);
+			this.ngramFreq3.add(toks);
 		}
 
 		// update existing lines
@@ -73,6 +86,12 @@ class BoardController {
 		this.hboard.animateTickers(function(h) {
 			return that.calcXDepth(h);
 		});
+
+		// for now, print top ngrams
+		//console.log(JSON.parse(JSON.stringify(this.ngramFreq.top(10))));
+		//console.log(JSON.stringify(this.ngramFreq.top(10)));
+		//console.log(JSON.stringify(this.ngramFreq2.top(10)));
+		//console.log(JSON.stringify(this.ngramFreq3.top(10)));
 	}
 
 	doTick() {

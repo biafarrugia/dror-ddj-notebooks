@@ -1,13 +1,13 @@
 mongodb query:
 
-{
- _timestamp: {
-  "$gte": ISODate('2020-11-04T00:00:00.000Z'),
-  "$lt": ISODate('2020-11-05T00:00:00.000Z')
- }
-}
-
-{ _timestamp: {  "$gte": ISODate('2020-11-03T00:00:00.000Z'),  "$lt": ISODate('2020-11-04T00:00:00.000Z') },$text: { $search: "Trump Biden Elections US vote poll president democratic republican party"}} 
+{ 
+_timestamp: {  
+ "$gte": ISODate('2020-11-02T00:00:00.000Z'),  
+ "$lt": ISODate('2020-11-09T00:00:00.000Z') 
+ },
+"_source.domain": "uknews"
+} 
 
 
 sed 's/\$date/date/g' < ~/Downloads/headings* | jq "(.[] | del(._id,.title_detail,.links,.guidislink,.published,.published_parsed,._fetched,.tags,._source._id,._source.domain,._source.rss,._source.url,._source.lang,._source.userAgent,.content,.summary,.summary_detail,.credit,.media_content,.media_credit,.updated,.updated_parsed,.media_thumbnail,.wfw_commentrss,.slash_comments,.media_embed))" | jq -s
+
